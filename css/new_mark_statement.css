@@ -1,0 +1,65 @@
+.line_height{
+    line-height: 1.9em;
+}
+table{
+    font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+    width:86%;
+    font-size: 12px !important;
+}
+.subjects_row{
+    line-height: 1.8em;
+}
+table td{
+    border: none !important;
+}
+.subjects_row
+{
+    line-height: 1.4em;
+}
+.sem_one_print_credit_points
+{
+    padding-left: 25px;
+    font-size: 14px;
+}
+.print_credit_points
+{
+    padding-left: 15px;
+    font-size: 14px;
+}
+.print_credit_points_add
+{
+    padding-left: 35px;
+    font-size: 14px;
+}
+.cumulative_row
+{
+    padding-left: 45px !important;
+    width: 30px !important;
+    font-size: 14px;
+    margin-top: -20px !important;
+}
+.margin_right
+{
+    padding-right: 5px;
+}
+.date_style
+{
+    padding-left: 25px !important;
+}
+.additional_credits
+{
+    font-size: 9px !important;
+}
+.head_right_tags
+{
+    padding-right: -6px !important;
+}
+.subject_code
+{
+    
+     padding-right: 35px !important;
+}
+.part_no_print_pg
+{
+    padding-bottom: -60px;
+}

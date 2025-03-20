@@ -1,0 +1,140 @@
+User: 172.17.25.52 - May 15, 2019, 12:47 pm
+Accessed URLS: http://172.17.25.1:8082/COE/index.php?r=ajaxrequest/getqpexamdate
+----------------------------------------------------------------
+
+User: 172.17.25.52 - May 15, 2019, 12:47 pm
+Accessed URLS: http://172.17.25.1:8082/COE/index.php?r=ajaxrequest/withheldregnum
+----------------------------------------------------------------
+
+User: 172.17.25.52 - May 15, 2019, 12:47 pm
+Accessed URLS: http://172.17.25.1:8082/COE/index.php?r=ajaxrequest/getdummyentsubje
+----------------------------------------------------------------
+
+User: 172.17.25.52 - May 15, 2019, 12:48 pm
+Accessed URLS: http://172.17.25.1:8082/COE/index.php?r=ajaxrequest/getdummyentsubje
+----------------------------------------------------------------
+
+User: 172.17.25.52 - May 15, 2019, 12:48 pm
+Accessed URLS: http://172.17.25.1:8082/COE/index.php?r=ajaxrequest/withheldregnum
+----------------------------------------------------------------
+
+User: 172.17.25.52 - May 15, 2019, 12:48 pm
+Accessed URLS: http://172.17.25.1:8082/COE/index.php?r=ajaxrequest/getqpexamdate
+----------------------------------------------------------------
+
+User: 172.17.25.52 - May 15, 2019, 12:48 pm
+Accessed URLS: http://172.17.25.1:8082/COE/index.php?r=ajaxrequest/getqpexamdate
+----------------------------------------------------------------
+
+User: 172.17.25.52 - May 15, 2019, 12:48 pm
+Accessed URLS: http://172.17.25.1:8082/COE/index.php?r=ajaxrequest/getdummyentsubje
+----------------------------------------------------------------
+
+User: 172.17.25.52 - May 15, 2019, 12:48 pm
+Accessed URLS: http://172.17.25.1:8082/COE/index.php?r=ajaxrequest/withheldregnum
+----------------------------------------------------------------
+
+User: 172.17.25.52 - May 15, 2019, 12:48 pm
+Accessed URLS: http://172.17.25.1:8082/COE/index.php?r=dummy-numbers%2Fdummy-number-entry
+----------------------------------------------------------------
+
+User: 172.17.25.52 - May 15, 2019, 12:48 pm
+Accessed URLS: http://172.17.25.1:8082/COE/index.php?r=dummy-numbers%2Fdummy-number-entry/images/notfound.png
+----------------------------------------------------------------
+
+User: 172.17.25.52 - May 15, 2019, 12:48 pm
+Accessed URLS: http://172.17.25.1:8082/COE/index.php?r=dummy-numbers%2Fdummy-number-entry
+----------------------------------------------------------------
+
+User: 172.17.25.52 - May 15, 2019, 12:48 pm
+Accessed URLS: http://172.17.25.1:8082/COE/index.php?r=dummy-numbers%2Fdummy-number-entry/images/notfound.png
+----------------------------------------------------------------
+
+User: 172.17.25.52 - May 15, 2019, 12:48 pm
+Accessed URLS: http://172.17.25.1:8082/COE/index.php?r=dummy-numbers%2Fdummy-number-entry
+----------------------------------------------------------------
+
+User: 172.17.25.52 - May 15, 2019, 12:48 pm
+Accessed URLS: http://172.17.25.1:8082/COE/index.php?r=dummy-numbers%2Fdummy-number-entry/images/notfound.png
+----------------------------------------------------------------
+
+User: 172.17.25.52 - May 15, 2019, 12:48 pm
+Accessed URLS: http://172.17.25.1:8082/COE/index.php?r=dummy-numbers%2Fdummy-number-entry
+----------------------------------------------------------------
+
+User: 172.17.25.52 - May 15, 2019, 12:48 pm
+Accessed URLS: http://172.17.25.1:8082/COE/index.php?r=dummy-numbers%2Fdummy-number-entry/images/notfound.png
+----------------------------------------------------------------
+
+User: 172.17.25.52 - May 15, 2019, 12:48 pm
+Accessed URLS: http://172.17.25.1:8082/COE/index.php?r=site%2Flogin
+----------------------------------------------------------------
+
+User: 172.17.25.52 - May 15, 2019, 12:48 pm
+Accessed URLS: http://172.17.25.1:8082/COE/index.php?r=site%2Flogin/images/notfound.png
+----------------------------------------------------------------
+
+User: 172.17.25.52 - May 15, 2019, 12:48 pm
+Accessed URLS: http://172.17.25.1:8082/COE/index.php?r=site%2Flogin
+----------------------------------------------------------------
+
+User: 172.17.25.52 - May 15, 2019, 12:48 pm
+Accessed URLS: http://172.17.25.1:8082/COE/index.php?r=site%2Flogin/images/notfound.png
+----------------------------------------------------------------
+
+User: 172.17.25.52 - May 15, 2019, 12:48 pm
+Accessed URLS: http://172.17.25.1:8082/COE/index.php?r=site%2Flogin
+----------------------------------------------------------------
+
+User: 172.17.25.52 - May 15, 2019, 12:48 pm
+Accessed URLS: http://172.17.25.1:8082/COE/index.php?r=site%2Flogin/images/notfound.png
+----------------------------------------------------------------
+
+User: 172.17.25.52 - May 15, 2019, 12:48 pm
+Accessed URLS: http://172.17.25.1:8082/COE/index.php?r=site%2Flogin
+----------------------------------------------------------------
+
+User: 172.17.25.52 - May 15, 2019, 12:48 pm
+Accessed URLS: http://172.17.25.1:8082/COE/index.php?r=site%2Flogin/images/notfound.png
+----------------------------------------------------------------
+
+User: 172.17.25.52 - May 15, 2019, 12:48 pm
+Accessed URLS: http://172.17.25.1:8082/COE/index.php?r=site%2Flogin
+----------------------------------------------------------------
+
+User: 172.17.25.52 - May 15, 2019, 12:48 pm
+Accessed URLS: http://172.17.25.1:8082/COE/index.php?r=site%2Flogin/images/notfound.png
+----------------------------------------------------------------
+
+User: 172.17.25.52 - May 15, 2019, 12:48 pm
+Accessed URLS: http://172.17.25.1:8082/COE/index.php?r=site%2Flogin
+----------------------------------------------------------------
+
+User: 172.17.25.52 - May 15, 2019, 12:48 pm
+Accessed URLS: http://172.17.25.1:8082/COE/index.php?r=site%2Flogin/images/notfound.png
+----------------------------------------------------------------
+
+User: 172.17.25.52 - May 15, 2019, 12:48 pm
+Accessed URLS: http://172.17.25.1:8082/COE/index.php?r=site%2Flogin
+----------------------------------------------------------------
+
+User: 172.17.25.52 - May 15, 2019, 12:48 pm
+Accessed URLS: http://172.17.25.1:8082/COE/index.php?r=site%2Flogin/images/notfound.png
+----------------------------------------------------------------
+
+User: 172.17.25.52 - May 15, 2019, 12:49 pm
+Accessed URLS: http://172.17.25.1:8082/COE/
+----------------------------------------------------------------
+
+User: 172.17.25.52 - May 15, 2019, 12:49 pm
+Accessed URLS: http://172.17.25.1:8082/COE/index.php?r=mark-entry-master%2Fconsolidate-mark-sheet
+----------------------------------------------------------------
+
+User: 172.17.25.52 - May 15, 2019, 12:49 pm
+Accessed URLS: http://172.17.25.1:8082/COE/index.php?r=mark-entry-master%2Fconsolidate-mark-sheet/images/notfound.png
+----------------------------------------------------------------
+
+User: 172.17.25.17 - May 15, 2019, 2:22 pm
+Accessed URLS: http://172.17.25.1:8082/COE/
+----------------------------------------------------------------
+

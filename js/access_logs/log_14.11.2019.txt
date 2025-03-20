@@ -1,0 +1,36 @@
+User: 172.17.244.37 - November 14, 2019, 1:53 pm
+Accessed URLS: http://172.17.25.1:8082/COE/index.php?r=student%2Fregister-numbers&q=1&programme=80&section=All
+----------------------------------------------------------------
+
+User: 172.17.242.96 - November 14, 2019, 1:54 pm
+Accessed URLS: http://172.17.25.1:8082/COE/index.php?r=site%2Flogin
+----------------------------------------------------------------
+
+User: 172.17.242.96 - November 14, 2019, 1:54 pm
+Accessed URLS: http://172.17.25.1:8082/COE/index.php?r=site%2Flogin/images/notfound.png
+----------------------------------------------------------------
+
+User: 172.17.242.96 - November 14, 2019, 1:55 pm
+Accessed URLS: http://172.17.25.1:8082/COE/
+----------------------------------------------------------------
+
+User: 172.17.242.96 - November 14, 2019, 1:55 pm
+Accessed URLS: http://172.17.25.1:8082/COE/
+----------------------------------------------------------------
+
+User: 172.17.242.96 - November 14, 2019, 1:55 pm
+Accessed URLS: http://172.17.25.1:8082/COE/index.php?r=mark-entry%2Fstudentmark-view
+----------------------------------------------------------------
+
+User: 172.17.242.96 - November 14, 2019, 1:55 pm
+Accessed URLS: http://172.17.25.1:8082/COE/index.php?r=mark-entry%2Fstudentmark-view/images/notfound.png
+----------------------------------------------------------------
+
+User: 172.17.242.96 - November 14, 2019, 1:55 pm
+Accessed URLS: http://172.17.25.1:8082/COE/
+----------------------------------------------------------------
+
+User: 172.17.242.96 - November 14, 2019, 2:06 pm
+Accessed URLS: http://172.17.25.1:8082/COE/
+----------------------------------------------------------------
+

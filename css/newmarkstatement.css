@@ -1,0 +1,156 @@
+.line_height{
+    line-height: 1.6em;
+}
+table{
+    font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+    width:100%;
+    font-size: 13px !important;
+    border: none !important;
+}
+table td{
+    border: none !important;
+}
+
+.img-responsive
+{
+    margin-top: -4px;
+    width: 80px !important;
+    height: 95px !important;
+    text-align: right !important;
+    float: right !important;
+}
+.stu_photo_height{
+    height: 100px !important;
+    border: none !important; 
+    text-align: right !important;
+}
+.sem_one_print_credit_points
+{
+    padding-left: 25px;
+}
+.print_credit_points_add
+{
+    padding-left: 35px;
+}
+
+.cumulative_row
+{
+    padding-left: 45px !important;
+    width: 30px !important;
+    margin-top: -4px !important;
+    padding-bottom: 10px !important;
+    text-align: left !important;
+    margin-left: -20px !important;
+}
+
+.cumulative_row td
+{
+    padding-bottom: 6px;
+}
+.margin_right
+{
+    padding-right: 5px;
+}
+.date_style
+{
+    text-align: left !important;
+    padding-left: 36px !important;
+    padding-top: 29px;
+}
+.date_style_ug
+{
+    text-align: left !important;
+    padding-left: 36px !important;
+    padding-top: 25px;
+}
+.make_bold_font
+{
+    font-weight: bold !important;
+}
+.head_right_tags
+{
+    padding-right: -6px !important;
+}
+#print_trimester
+{
+    padding-top: -35px; 
+    text-align: center;
+}
+#no_print_trimester
+{
+     padding-top: -4px !important; 
+     text-align: center;
+}
+.stu_sub_gap
+{
+    height: 30px !important; 
+}
+.print_credit_points,.print_cumulative_credit_points,.sem_credits_print_row, .arrear_sem_credits
+{
+    text-align: left !important;
+}
+
+.print_cumulative_credit_points_cgpa
+{
+    text-align: center !important;
+}
+.sem_8
+{
+    text-align: center !important;
+}
+.subjects_row
+{
+    line-height: 1.2em;
+}
+.put_margin
+{
+    padding-left:  8px !important;
+}
+
+.additional_credits
+{
+    padding-left: -5px !important;
+    font-weight: bold !important;
+    width: 450px !important;
+    font-size: 8px !important;
+}
+.pull_down
+{
+    padding-top: 5px !important;
+}
+.TRIMESTER_STU_SUB_GAP
+{
+    height: 44px !important; 
+}
+.change_margin_ma10
+{
+    padding-left:  -10px !important;
+}
+.arrear_sem_credits
+{
+    text-align: center !important;
+    padding-right: 27px !important;
+}
+.line_height{
+    padding-right: -89px !important;
+}
+.line_height_dob
+{
+    padding-right: -49px !important;
+}
+.line_height_year
+{
+    padding-right: -83px !important;
+}
+.sub_result
+{
+    padding-right: -130px !important;
+}
+.sub_ncc
+{
+    padding-left: -330px !important;
+}
+.sub_ncc1
+{
+    padding-right: 205px !important;
+}

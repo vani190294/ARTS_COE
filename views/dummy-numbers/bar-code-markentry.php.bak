@@ -1,0 +1,380 @@
+<?php
+
+use yii\helpers\Html;
+use yii\widgets\ActiveForm;
+use yii\helpers\ArrayHelper;
+use yii\helpers\Url;
+use app\assets\AppAsset;
+use kartik\widgets\Select2;
+use app\components\ConfigConstants;
+use app\components\ConfigUtilities;
+use kartik\dialog\Dialog;
+use app\models\HallAllocate;
+echo Dialog::widget();
+
+use app\models\ValuationSettings;
+
+$ValuationSettings = ValuationSettings::findOne(1);
+
+$userid=Yii::$app->user->getId();
+
+$item_name = Yii::$app->db->createCommand("SELECT item_name FROM auth_assignment WHERE  user_id='" . $userid . "'")->queryScalar();
+
+/* @var $this yii\web\View */
+/* @var $model app\models\ExamTimetable */
+/* @var $form yii\widgets\ActiveForm */
+
+$this->title = "Bar Code Mark Entry";
+$this->params['breadcrumbs'][] = $this->title;
+
+ $this->registerJs("$(document).ready(function() { $(window).keydown(function(event){ if(event.keyCode == 13) { event.preventDefault(); return false; } }); });");
+?>
+
+<div>&nbsp;</div>
+<div class="exam-timetable-form">
+<div class="box box-success">
+<div class="box-body"> 
+<?php Yii::$app->ShowFlashMessages->showFlashes();?> 
+<?php 
+
+$form = ActiveForm::begin(); ?>
+<div>&nbsp;</div>
+ <?php if(empty($verify_stu_data))
+{?>
+    <h1><?php echo "Bar Code Mark Entry"; ?></h1>
+
+<div class="row">
+<div class="col-xs-12 col-sm-12 col-lg-12">
+   <div class="col-xs-12 col-sm-12 col-lg-12"> 
+         <?php if($item_name=='ValuatorAccess'){
+
+            echo $form->field($model, 'year')->hiddenInput(['id'=>'barcode_exam_year','name'=>'barcode_exam_year','value'=> $ValuationSettings['current_exam_year']])->label(false);
+             echo $form->field($model, 'month')->hiddenInput([ 'id' => 'barcode_exam_month','name'=>'barcode_exam_month','value'=> $ValuationSettings['current_exam_month']])->label(false);
+            ?>
+                <!--input type="hidden" id="barcode_exam_year" name="barcode_exam_year" value="<?= $ValuationSettings['current_exam_year'];?>">
+                 <input type="hidden" id="barcode_exam_month" name="barcode_exam_month" value="<?= $ValuationSettings['current_exam_month'];?>"-->
+            <?php }else{?>
+         <div class="col-xs-12 col-sm-2 col-lg-2">
+            <?= $form->field($model, 'year')->textInput(['value'=>date('Y'),'id'=>'barcode_exam_year','name'=>'barcode_exam_year']) ?>
+
+        </div>
+        
+        <div class="col-xs-12 col-sm-2 col-lg-2">
+            <?= $form->field($model, 'month')->widget(
+                    Select2::classname(), [  
+                        'data' => HallAllocate::getMonth(),                      
+                        'theme' => Select2::THEME_BOOTSTRAP,
+                        'options' => [
+                            'placeholder' => '-----Select Month ----',
+                            'id' => 'barcode_exam_month',  
+                            'name'=>'barcode_exam_month'
+                        ],
+                       'pluginOptions' => [
+                           'allowClear' => true,
+                        ],
+                    ]) ?>
+        </div>
+        <?php }?>
+        <div class="col-xs-12 col-sm-2 col-lg-2">
+             <?php 
+                echo $form->field($factallModel,'valuation_date')->widget(
+                Select2::classname(), [
+                    'options' => [
+                        'placeholder' => '-----Select valuation Date----',
+                        'id' => 'barcode_valuation_date',         
+                    ],
+                    'pluginOptions' => [
+                        'allowClear' => true,
+
+                    ],
+                ]); 
+            ?>      
+                     
+        </div> 
+        <div class="col-xs-12 col-sm-2 col-lg-2">
+              <?php 
+                echo $form->field($factallModel,'valuation_session')->widget(
+                Select2::classname(), [
+                    'options' => [
+                        'placeholder' => '-----Select valuation session----',
+                        'id' => 'barcode_valuation_session',         
+                    ],
+                    'pluginOptions' => [
+                        'allowClear' => true,
+
+                    ],
+                ]); 
+            ?>   
+                     
+        </div>
+
+        <div class="col-xs-12 col-sm-3 col-lg-3">
+           <?php echo $form->field($factallModel,'coe_val_faculty_id')->widget(
+                Select2::classname(), [
+                    'options' => [
+                        'placeholder' => '-----Select Faculty----',      
+                        'id'=>'barcode_val_faculty_id',                   
+                    ],
+                    'pluginOptions' => [
+                        'allowClear' => true,
+                    ],
+                ]); 
+            ?>  
+        </div> 
+
+        <div class="col-xs-12 col-sm-2 col-lg-2">
+            <?= $form->field($factallModel, 'subject_pack_i')->textInput(['placeholder' => 'Enter Packet No. (1/2)','id'=>'barcode_packet_number','autocomplete'=>"off",])->label('Enter packet number');  ?>
+        </div>
+        
+         <div><input type="hidden" name="val_faculty_all_id" id="val_faculty_all_id"/></div>
+         <div id="total_script"></div>
+          <div><input type="hidden" id="markentry_count" value="0"/></div>
+        
+    </div>
+
+  
+</div>
+</div>
+<div class="row">
+    <div class="col-xs-12 col-sm-12 col-lg-12" id="barcode_markentry">
+        <h1 align="center" >Bar Code Mark Entry Starts here </h1>
+    <div class="col-xs-12 col-sm-12 col-lg-12"  id="create_div_element">
+
+        <div class="row create_stu_div_element">
+            <div class='col-xs-12 col-sm-3 col-lg-3'>&nbsp; </div>
+            <div class='col-xs-12 col-sm-6 col-lg-6'>  
+                    <div class="col-sm-6 col-lg-6"> 
+                        <?= $form->field($model, 'student_map_id[]')->passwordInput(['maxlength' => true,'class'=>'form-control','placeholder'=>'Place Cursor and Scan'  ,'onfocus'=>" if (this.value==this.defaultValue) this.value = '' " ,'onblur'=>'checkDupliCateNum(this.id,this.value)','autocomplete'=>'false'])->label('Barcode Scan Here')  ?>
+                    </div>                
+                    <div class="col-sm-6 col-lg-6">  
+                        <?= $form->field($model, 'dummy_number[]')->textInput(['autocomplete'=>"off",'class'=>'form-control', 'onkeypress'=>"numbersOnly(event);allowEntr(event,this.id);", 'onchange'=>"check_max_number(this.id,this.value); ",'onblur'=>'addNewRows(this.id)', 'name'=>"ese_marks[]"])->label('Marks')  ?>
+                    </div>
+            </div>   
+            <div class='col-xs-12 col-sm-3 col-lg-3'>&nbsp; </div>         
+        </div>
+
+    </div> 
+   
+</div>
+</div>
+<div><input type="hidden" name="barcode_exam_year1" value="<?php echo $exam_year;?>"/></div>
+  <div class="col-xs-12 col-sm-12 col-lg-12">
+            <div class="btn-group col-lg-12 col-sm-12" role="group" aria-label="Actions to be Perform">
+                <?= Html::Button('Show',['class' => 'btn btn-success','id'=>'show_barcode']) ?>
+
+                <?= Html::SubmitButton('Submit',['class' => 'btn btn-success','id'=>'finish_barcode']) ?>
+
+                <?= Html::a("Reset", Url::toRoute(['dummy-numbers/bar-code-markentry']), ['onClick'=>"spinner();",'class' => 'btn btn-group btn-group-lg btn-warning ']) ?>    
+            
+        </div> 
+    </div>
+
+<?php }?>
+
+<?php if(!empty($verify_stu_data))
+{?>
+<div class="row">
+    <div class="col-xs-12 col-sm-12 col-lg-12">
+            <div><input type="hidden" name="barcode_exam_year1" value="<?php echo $exam_year;?>"/></div>
+                <?= $form->field($model, 'year')->hiddenInput(['value'=>$exam_year,'name'=>'barcode_exam_year'])->label(false) ?>
+                <?= $form->field($model, 'month')->hiddenInput(['value'=>$exam_month,'name'=>'barcode_exam_month'])->label(false) ?>
+                <?= $form->field($factallModel,'valuation_date')->hiddenInput(['value'=>$val_date,'name'=>'valuation_date'])->label(false) ?>
+                <?= $form->field($factallModel,'valuation_session')->hiddenInput(['value'=>$val_session,'name'=>'valuation_session'])->label(false) ?>
+                <?= $form->field($factallModel,'coe_val_faculty_id')->hiddenInput(['value'=>$val_facl_id,'name'=>'coe_val_faculty_id'])->label(false) ?>
+                 <?= $form->field($factallModel,'subject_pack_i')->hiddenInput(['value'=>$pack_no,'name'=>'subject_pack_i'])->label(false) ?>
+        
+    </div>
+</div>
+<div class="row">
+    <div class="col-xs-12 col-sm-12 col-lg-12">
+         
+        
+
+             <?php  $userid=Yii::$app->user->getId();
+
+            $item_name = Yii::$app->db->createCommand("SELECT item_name FROM auth_assignment WHERE  user_id='" . $userid . "'")->queryScalar();
+
+             if( $_SESSION['valuation_status']==6 || $item_name!='ValuatorAccess')
+            {
+                echo Html::a('<i class="fa fa-file-pdf-o"></i> PDF', ['/dummy-numbers/printbarcodemarkpdf'], [
+                'class'=>'pull-right btn btn-primary', 
+                'target'=>'_blank', 
+                'data-toggle'=>'tooltip', 
+                'title'=>'Will open the generated PDF file in a new window'
+                ]);
+
+            }
+            ?>
+          <?php 
+          if($_SESSION['valuation_status']==3 || $_SESSION['valuation_status']==4 || $_SESSION['valuation_status']==5)
+         {?>
+
+            <!--  mark difference start-->
+            <?php 
+          if($mark_diff_count>0)
+         {?>
+
+            <h2 align="center"> Mark Entry Details</h2>
+
+            <div class="col-xs-12 col-sm-12 col-lg-12" style="text-align:center;">
+               <h4> <?php echo $title;?></h4>
+
+            </div>
+
+            <?php $scru=0;
+          foreach ($verify_stu_data as $value) 
+          {
+            $check_verify = Yii::$app->db->createCommand("SELECT total_change,grand_total FROM coe_val_barcode_verify_details WHERE dummy_number='" . $value['dummy_number'] . "' ")->queryone();
+           
+             ?> 
+            <?php if($value['dummy_marks']!=$check_verify['grand_total'])
+            { 
+                $valid="scrutiny_mark_".$value['coe_mark_entry_id'];
+                $scru=$scru+1;?>
+                <div class="col-xs-12 col-sm-12 col-lg-12">  
+                <div class="row">
+                    <div class='col-xs-12 col-sm-2 col-lg-2'>&nbsp; </div>
+                    <div class='col-xs-12 col-sm-10 col-lg-10'>  
+
+                       
+                            <div class="col-sm-3 col-lg-3"> 
+                                <?= $form->field($model, 'student_map_id[]')->textInput(['class'=>'form-control','readonly'=> true,'name'=>"student_map_id[]",'value'=>$value['dummy_number']])->label('Barcode')  ?>
+                            </div>                
+                            <div class="col-sm-3 col-lg-3">  
+                                <?= $form->field($model, 'dummy_number[]')->textInput(['class'=>'form-control', 'readonly'=> true,'id'=>$valid, 'name'=>"ese_marks[]",'value'=>$check_verify['grand_total']])->label('Scurtiny Entry')  ?>
+                            </div>
+                            <div class="col-sm-6 col-lg-6"> 
+                                <div class="col-sm-5 col-lg-5">
+                                <b>Evaluator Entry</b>
+                                <?php if($value['dummy_marks']!=$check_verify['grand_total'] && $check_verify['grand_total']){
+
+                                $diff="evaluator_entry_diff".$value['coe_mark_entry_id'];
+                                $not="evaluator_entry_not".$value['coe_mark_entry_id'];
+
+                                $markid="mark_entry_id_".$value['coe_mark_entry_id']; ?>
+
+                                <input type="hidden" id="<?= $markid; ?>" value="<?= $value['coe_mark_entry_id']; ?>"/>
+                                <span id="<?= $not;?>" style="display: none;"><b>Scrutiny Not Verified</b></span>
+                                 <b><br> Mark: <?=$value['dummy_marks'];?> 
+                                 <span id="<?= $diff;?>">Diff:<?php echo ($value['dummy_marks']-$check_verify['grand_total'])?></b>
+                                </span>
+
+                                <?php }else if($scru>0){ ?>
+                                     
+                                    <b><br> Mark: <?=$value['dummy_marks'];?><br>Scrutiny Not Verified</b>
+                               
+                              
+                                 <?php }?>
+                            </div>
+                            <div class="col-sm-7 col-lg-7"><br>
+                                
+                                <?php if($value['dummy_marks']!=$check_verify['grand_total'] && $check_verify['grand_total']){ ?>
+                                <div id=<?= "scrutiny_button_".$value['coe_mark_entry_id'];?>>
+                                 <?= Html::Button('Accept Scrutiny',['class' => 'btn btn-success', 'onClick'=>'updatemarkentry('.$value['coe_mark_entry_id'].');']) ?>
+
+                                <?= Html::Button('Delete Scrutiny',['class' => 'btn btn-warning', 'onClick'=>'delete_scrutiny('.$value['coe_mark_entry_id'].','.$value['dummy_number'].');']) ?>
+                                </div>
+                                <?php }?>
+
+                                
+                            </div>
+
+                            </div>
+                        
+
+                            
+                    </div>   
+                    <div class='col-xs-12 col-sm-3 col-lg-3'>&nbsp; </div>         
+                </div>
+                </div> 
+        <?php }?>
+         <?php }?>
+
+         <input type="hidden" id="markdiff_countval" value="<?= $mark_diff_count; ?>"/>
+          <div class="col-xs-12 col-sm-12 col-lg-12" style="text-align:center;display:none;" id="refreshpage" >
+               <h4> Refer Page for Generate PDF</h4>
+
+            </div>
+        
+        <?php } else {?> <!-- no mark difference start-->
+
+
+            <h2 align="center"> Mark Entry List</h2>
+
+            <div class="col-xs-12 col-sm-12 col-lg-12" style="text-align:center;">
+               <h4> <?php echo $title;?></h4>
+
+            </div>
+
+            <?php $scru=0;
+          foreach ($verify_stu_data as $value) 
+          {
+            $check_verify = Yii::$app->db->createCommand("SELECT total_change,grand_total FROM coe_val_barcode_verify_details WHERE dummy_number='" . $value['dummy_number'] . "' ")->queryone();
+           
+             ?> 
+            <?php if($value['dummy_marks']!=$check_verify['grand_total'])
+            { 
+                $scru=$scru+1;
+            }?>
+                <div class="col-xs-12 col-sm-12 col-lg-12">  
+                <div class="row">
+                    <div class='col-xs-12 col-sm-2 col-lg-2'>&nbsp; </div>
+                    <div class='col-xs-12 col-sm-10 col-lg-10'>  
+
+                       
+                            <div class="col-sm-3 col-lg-3"> 
+                                <?= $form->field($model, 'student_map_id[]')->textInput(['class'=>'form-control','readonly'=> true,'name'=>"student_map_id[]",'value'=>$value['dummy_number']])->label('Barcode')  ?>
+                            </div>                
+                            <div class="col-sm-3 col-lg-3">  
+                                <?= $form->field($model, 'dummy_number[]')->textInput(['class'=>'form-control', 'readonly'=> true, 'name'=>"ese_marks[]",'value'=>$check_verify['grand_total']])->label('Scurtiny Entry')  ?>
+                            </div>
+                            <div class="col-sm-6 col-lg-6"> 
+                               
+                            </div>
+                        
+
+                            
+                    </div>   
+                    <div class='col-xs-12 col-sm-3 col-lg-3'>&nbsp; </div>         
+                </div>
+                </div> 
+       
+         <?php }?>
+
+
+        <div class="col-xs-12 col-sm-12 col-lg-12">
+        <div class="col-xs-12 col-sm-3 col-lg-3">
+            &nbsp;
+        </div>
+        <div class="col-xs-12 col-sm-3 col-lg-3">           
+        <br />
+        <div class="btn-group col-lg-12 col-sm-12" role="group" aria-label="Actions to be Perform">
+            <?php  if($scru==0){ ?>
+            <?= Html::SubmitButton('Generate PDF' ,['data-confirm' => 'Are you sure you want to Continue <br /> This can not be Un-Done once the values were Submitted.','class' => 'btn btn-success','target'=>'_blank','id'=>'final_submit' ]) ?>    
+             <?php }?>           
+        </div>             
+        </div>
+        </div> 
+
+
+        <?php }?>
+            <?php 
+            }else if( $_SESSION['valuation_status']==6){?>
+                 <div class="col-xs-12 col-sm-12 col-lg-12">
+           <?php echo $_SESSION['get_print_barcode_mark']; ?>
+        </div>
+        <?php } else{
+            ?>
+                <div class="col-xs-12 col-sm-12 col-lg-12" style="text-align: center"><b>No Data Found</b></div>
+         <?php }
+            ?>
+    </div>
+</div>
+
+<?php }?>
+
+<?php ActiveForm::end(); ?>
+
+
+</div>
+

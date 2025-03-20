@@ -1,0 +1,143 @@
+.line_height{
+    line-height: 1.6em;
+}
+table{
+    font-family:"ArialMT", Arial, sans-serif;;
+    width:100%;
+    font-size: 11px !important;
+    border: none !important;
+}
+table td{
+    border: none !important;
+}
+
+.img-responsive
+{
+    margin-top: -4px;
+    width: 80px !important;
+    height: 95px !important;
+    text-align: right !important;
+    float: right !important;
+}
+.stu_photo_height{
+    height: 100px !important;
+    border: none !important; 
+    text-align: right !important;
+}
+.sem_one_print_credit_points
+{
+    padding-left: 25px;
+}
+.print_credit_points_add
+{
+    padding-left: 35px;
+}
+
+.cumulative_row
+{
+    padding-left: 45px !important;
+    width: 30px !important;
+    margin-top: -4px !important;
+    padding-bottom: 10px !important;
+    text-align: left !important;
+    margin-left: -20px !important;
+}
+
+.cumulative_row td
+{
+    padding-bottom: 6px;
+}
+.margin_right
+{
+    padding-right: 5px;
+}
+.date_style
+{
+    text-align: left !important;
+    padding-left: 36px !important;
+    padding-top: 29px;
+}
+.date_style_ug
+{
+    text-align: left !important;
+    padding-left: 36px !important;
+    padding-top: 25px;
+}
+.make_bold_font
+{
+    font-weight: bold !important;
+}
+.head_right_tags
+{
+    padding-right: -6px !important;
+}
+#no_print_trimester
+{
+     padding-top: 28px !important; 
+     text-align: center;
+}
+#print_trimester
+{
+    padding-top: 2px; 
+    text-align: center;
+    font-size: 14px !important;
+}
+.stu_sub_gap
+{
+    height: 37px !important;
+}
+.no_stu_sub_gap
+{
+    height: 40px !important;   
+}
+.print_credit_points,.print_cumulative_credit_points,.sem_credits_print_row, .arrear_sem_credits
+{
+    text-align: left !important;
+}
+.print_credit_points
+{
+    text-align: left !important;
+    padding-left: -30px;
+}
+
+.print_cumulative_credit_points_cgpa,.print_cumulative_credit_points
+{
+    padding-top: 4px !important;
+    text-align: right !important;
+}
+.print_cumulative_credit_points_cgpa
+{
+    text-align: right !important;
+    padding-right: 60px !important;
+}
+.sem_8
+{
+    text-align: center !important;
+}
+.subjects_row
+{
+    line-height: 1.2em;
+}
+.put_margin
+{
+    padding-left:  8px !important;
+}
+.additional_credits
+{
+    padding-left: -5px !important;
+    font-weight: bold !important;
+    width: 450px;
+    font-size: 8px !important;
+}
+.pull_down
+{
+    padding-top: 5px !important;
+}
+.font_bigger
+{
+    font-size: 13px !important;
+}
+.put_left
+{
+    text-align: left !important;
+}

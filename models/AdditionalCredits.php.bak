@@ -1,0 +1,67 @@
+<?php
+
+namespace app\models;
+
+use Yii;
+use app\components\ConfigConstants;
+use app\components\ConfigUtilities;
+/**
+ * This is the model class for table "coe_additional_credits".
+ *
+ * @property integer $coe_additional_credits_id
+ * @property integer $exam_year
+ * @property integer $exam_month
+ * @property integer $student_map_id
+ * @property string $subject_code
+ * @property string $subject_name
+ * @property integer $credits
+ * @property string $grade
+ * @property string $created_at
+ * @property integer $created_by
+ * @property string $updated_at
+ * @property integer $updated_by
+ */
+class AdditionalCredits extends \yii\db\ActiveRecord
+{
+    /**
+     * @inheritdoc
+     */
+    public static function tableName()
+    {
+        return 'coe_additional_credits';
+    }
+
+    /**
+     * @inheritdoc
+     */
+    public function rules()
+    {
+        return [
+            [['exam_year', 'exam_month', 'student_map_id', 'subject_code', 'subject_name', 'credits', 'grade', 'created_at', 'created_by', 'updated_at', 'updated_by'], 'required'],
+            [['exam_year', 'exam_month', 'student_map_id', 'credits', 'created_by', 'updated_by'], 'integer'],
+            [['subject_code', 'subject_name', 'grade', 'created_at', 'updated_at'], 'string', 'max' => 255],
+            [['student_map_id', 'subject_code'], 'unique', 'targetAttribute' => ['student_map_id', 'subject_code'], 'message' => 'The combination of '.ConfigUtilities::getConfigValue(ConfigConstants::CONFIG_STUDENT).' and '.ConfigUtilities::getConfigValue(ConfigConstants::CONFIG_SUBJECT).' Code has already been taken.'],
+        ];
+    }
+
+    /**
+     * @inheritdoc
+     */
+    public function attributeLabels()
+    {
+        return [
+            'coe_additional_credits_id' => 'Coe Additional Credits ID',
+            'exam_year' => ConfigUtilities::getConfigValue(ConfigConstants::CONFIG_EXAM).' Year',
+            'exam_month' => ConfigUtilities::getConfigValue(ConfigConstants::CONFIG_EXAM).' Month',
+            'student_map_id' => ConfigUtilities::getConfigValue(ConfigConstants::CONFIG_STUDENT),
+            'subject_code' => ConfigUtilities::getConfigValue(ConfigConstants::CONFIG_SUBJECT).' Code',
+            'subject_name' => ConfigUtilities::getConfigValue(ConfigConstants::CONFIG_SUBJECT).' Name',
+            'credits' => 'Credits',
+            'grade' => 'Grade',
+            'created_at' => 'Created At',
+            'created_by' => 'Created By',
+            'updated_at' => 'Updated At',
+            'updated_by' => 'Updated By',
+        ];
+    }
+}

@@ -1,0 +1,40 @@
+User: 172.17.242.171 - December 13, 2019, 1:52 pm
+Accessed URLS: http://172.17.25.1:8082/COE/index.php?r=site%2Flogin
+----------------------------------------------------------------
+
+User: 172.17.242.171 - December 13, 2019, 1:52 pm
+Accessed URLS: http://172.17.25.1:8082/COE/index.php?r=site%2Flogin/images/notfound.png
+----------------------------------------------------------------
+
+User: 172.17.243.81 - December 13, 2019, 2:20 pm
+Accessed URLS: http://172.17.25.1:8082/COE/index.php?r=site%2Flogin
+----------------------------------------------------------------
+
+User: 172.17.243.81 - December 13, 2019, 2:20 pm
+Accessed URLS: http://172.17.25.1:8082/COE/index.php?r=site%2Flogin/images/notfound.png
+----------------------------------------------------------------
+
+User: 172.17.243.81 - December 13, 2019, 2:20 pm
+Accessed URLS: http://172.17.25.1:8082/COE/index.php?r=site%2Flogin
+----------------------------------------------------------------
+
+User: 172.17.243.81 - December 13, 2019, 2:20 pm
+Accessed URLS: http://172.17.25.1:8082/COE/index.php?r=site%2Flogin/images/notfound.png
+----------------------------------------------------------------
+
+User: 172.17.243.81 - December 13, 2019, 2:20 pm
+Accessed URLS: http://172.17.25.1:8082/COE/index.php?r=site%2Flogin
+----------------------------------------------------------------
+
+User: 172.17.243.81 - December 13, 2019, 2:20 pm
+Accessed URLS: http://172.17.25.1:8082/COE/index.php?r=site%2Flogin/images/notfound.png
+----------------------------------------------------------------
+
+User: 172.17.243.81 - December 13, 2019, 2:20 pm
+Accessed URLS: http://172.17.25.1:8082/COE/index.php?r=site%2Flogin
+----------------------------------------------------------------
+
+User: 172.17.243.81 - December 13, 2019, 2:20 pm
+Accessed URLS: http://172.17.25.1:8082/COE/index.php?r=site%2Flogin/images/notfound.png
+----------------------------------------------------------------
+

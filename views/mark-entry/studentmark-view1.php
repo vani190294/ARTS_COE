@@ -1,0 +1,63 @@
+<?php
+
+use yii\helpers\Html;
+use yii\widgets\ActiveForm;
+
+use app\components\ConfigConstants;
+use app\components\ConfigUtilities;
+use app\models\Student;
+use yii\helpers\ArrayHelper;
+use app\assets\AppAsset;
+use yii\helpers\Url;
+use kartik\widgets\Select2;
+use kartik\dialog\Dialog;
+use app\models\ExamTimetable;
+use app\models\MarkEntry;
+
+echo Dialog::widget();
+
+/* @var $this yii\web\View */
+/* @var $model app\models\MarkEntry */
+/* @var $form yii\widgets\ActiveForm */
+
+$this->title="Student Mark View New without Honours";
+$reg_nom = isset($_POST['mark_view_reg_no']) ? $_POST['mark_view_reg_no'] : '';
+?>
+
+<h1><?= Html::encode($this->title) ?></h1>
+<div>&nbsp;</div>
+<div class="mark-entry-form">
+<div class="box box-success">
+<div class="box-body"> 
+<div>&nbsp;</div>
+
+	<?php Yii::$app->ShowFlashMessages->showFlashes();?>
+
+    <?php $form = ActiveForm::begin([
+                    'id' => 'mark-entry-form',
+                    'fieldConfig' => [
+                    'template' => "{label}{input}{error}",
+                    ],
+            ]); ?>
+
+    <div class="col-xs-12 col-sm-12 col-lg-12">
+        <div class="col-xs-12 col-sm-12 col-lg-12">
+            <div class="col-lg-3 col-sm-3">
+            	<?= $form->field($model, 'mark_view_register_number')->textInput(['id'=>'mark_view_reg_no','name'=>'mark_view_reg_no','required'=>'required','value'=>$reg_nom,'style'=>'text-transform:uppercase']) ?>
+            </div>
+       		<div class="form-group col-lg-3 col-sm-3"><br />
+                <input type="submit" id="markviewbutton" name="markviewbutton" class="btn btn-success" value="Submit"  />
+            </div>       	
+        </div>
+    </div>
+
+     <?php ActiveForm::end(); ?>
+
+     <?php
+     include_once("studentmark_view_pdf1.php");
+	    
+	?>
+
+    </div>
+	</div>
+	</div>

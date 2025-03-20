@@ -1,0 +1,56 @@
+User: 172.17.243.211 - November 13, 2019, 9:06 am
+Accessed URLS: http://172.17.25.1:8082/COE/index.php?r=site%2Flogin
+----------------------------------------------------------------
+
+User: 172.17.243.211 - November 13, 2019, 9:06 am
+Accessed URLS: http://172.17.25.1:8082/COE/index.php?r=site%2Flogin/images/notfound.png
+----------------------------------------------------------------
+
+User: 172.17.243.211 - November 13, 2019, 12:08 pm
+Accessed URLS: http://172.17.25.1:8082/COE/index.php?r=site%2Flogin
+----------------------------------------------------------------
+
+User: 172.17.243.211 - November 13, 2019, 12:08 pm
+Accessed URLS: http://172.17.25.1:8082/COE/index.php?r=site%2Flogin/images/notfound.png
+----------------------------------------------------------------
+
+User: 172.17.243.211 - November 13, 2019, 12:08 pm
+Accessed URLS: http://172.17.25.1:8082/COE/
+----------------------------------------------------------------
+
+User: 172.17.243.211 - November 13, 2019, 12:09 pm
+Accessed URLS: http://172.17.25.1:8082/COE/index.php?r=site%2Flogin
+----------------------------------------------------------------
+
+User: 172.17.243.211 - November 13, 2019, 12:09 pm
+Accessed URLS: http://172.17.25.1:8082/COE/index.php?r=site%2Flogin/images/notfound.png
+----------------------------------------------------------------
+
+User: 172.17.243.211 - November 13, 2019, 12:16 pm
+Accessed URLS: http://172.17.25.1:8082/COE/index.php?r=site%2Flogin
+----------------------------------------------------------------
+
+User: 172.17.243.211 - November 13, 2019, 12:16 pm
+Accessed URLS: http://172.17.25.1:8082/COE/index.php?r=site%2Flogin/images/notfound.png
+----------------------------------------------------------------
+
+User: 172.17.243.211 - November 13, 2019, 12:17 pm
+Accessed URLS: http://172.17.25.1:8082/COE/index.php?r=site%2Flogin
+----------------------------------------------------------------
+
+User: 172.17.243.211 - November 13, 2019, 12:17 pm
+Accessed URLS: http://172.17.25.1:8082/COE/index.php?r=site%2Flogin/images/notfound.png
+----------------------------------------------------------------
+
+User: 172.17.243.211 - November 13, 2019, 12:34 pm
+Accessed URLS: http://172.17.25.1:8082/COE/index.php?r=site%2Flogin
+----------------------------------------------------------------
+
+User: 172.17.243.211 - November 13, 2019, 12:34 pm
+Accessed URLS: http://172.17.25.1:8082/COE/index.php?r=site%2Flogin/images/notfound.png
+----------------------------------------------------------------
+
+User: 172.17.243.211 - November 13, 2019, 12:35 pm
+Accessed URLS: http://172.17.25.1:8082/COE/
+----------------------------------------------------------------
+

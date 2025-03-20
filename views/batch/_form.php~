@@ -1,0 +1,121 @@
+<?php
+use yii\helpers\Html;
+use yii\widgets\ActiveForm;
+use app\assets\AppAsset;
+use yii\helpers\Url;
+use yii\helpers\ArrayHelper;
+use app\components\ConfigConstants;
+use app\components\ConfigUtilities;
+?>
+
+<div class="batch-form">
+<div class="box box-success">
+<div class="box-body"> 
+
+    <?php Yii::$app->ShowFlashMessages->showFlashes();?>  
+    <?php $form = ActiveForm::begin(); ?>
+
+    <div class="col-xs-12 col-sm-12 col-lg-12">                
+        <div class="col-xs-12 col-sm-3 col-lg-3">
+  <?= $form->field($model, 'batch_name')->textInput(['maxlength' => 4,'id' =>'batch_name','required'=>'required','placeholder'=>'YYYY']) ?>
+        </div>    
+
+        <div class="col-xs-12 col-sm-3 col-lg-3" id="reg">
+  <?= $form->field($regulation, 'regulation_year')->textInput(['maxlength' => 4,'id' => 'reg_year','placeholder'=>'YYYY']) ?>
+        </div> 
+                    
+        <div class="col-xs-12 col-sm-3 col-lg-3" id = "grade">
+            <input class="range_of_grade" type="radio" id="grade10" name="gradee" value="10" > <b>Grade Out of 10</b><br>
+            <input class="range_of_grade" type="radio" id="grade100" name="gradee" value="100" > <b>Grade Out of 100</b> <br>                        
+        </div>                   
+    </div>  
+
+    <div class="col-xs-12 col-sm-12 col-lg-12" id="gradepoints" >                                 
+        <div class="col-xs-12 col-sm-3 col-lg-3">
+  <?= $form->field($regulation, 'grade_point_from')->textInput(['maxlength'=>3,'placeholder'=>'Only Numbers']) ?>
+        </div>
+
+        <div class="col-xs-12 col-sm-3 col-lg-3">
+  <?= $form->field($regulation, 'grade_point_to')->textInput(['maxlength'=>3,'placeholder'=>'Only Numbers']) ?>
+        </div>                  
+                            
+        <div class="col-xs-12 col-sm-3 col-lg-3">
+  <?= $form->field($regulation, 'grade_name')->textInput(['maxlength' => 3,'placeholder'=>'Only Alphabets']) ?>
+        </div> 
+
+        <div class="col-xs-12 col-sm-3 col-lg-3">
+  <?= $form->field($regulation, 'grade_point')->textInput(['maxlength' => 2,'placeholder'=>'Only Integer']) ?>
+        </div>                              
+    </div> 
+
+     <div>&nbsp;</div>      
+
+    <div class="col-xs-12 col-sm-12 col-lg-12">
+        <div class="col-xs-12 col-sm-3 col-lg-3">
+            <input type="button" class="btn btn-success" name="viewtable" value="Submit" id="button_view_batch">
+            <input type="button" class="btn btn-success" name="viewtable" value="Submit" id="button_new_batch">
+            <input type="button" class="btn btn-success" name="viewtable" value="Submit" id="button_show_degree">
+            <input type="button" class="btn btn-success" name="grade_table" id="add_grade" value="Add"/>    
+            <input type="button" class="btn btn-success" name="exitgrade" id="exit_grade" value="Done"/>             
+        </div>
+    </div>
+
+    <div>&nbsp;</div>   
+
+    <div class="col-xs-12 col-sm-12 col-lg-12">
+        <div class="col-xs-12 col-sm-8 col-lg-8">
+            <div id = "stu_tbl" >                
+            </div>
+        </div>
+    </div>    
+
+    <div class="col-xs-12 col-sm-12 col-lg-12">
+        <div class="col-xs-12 col-sm-12 col-lg-12">
+        <input type="button" class="btn btn-success" name="increment_table" id="add_content_table" value="Add"/>    
+        <input type="button" class="btn btn-success" name="exittable" id="exit_table" value="Done"/>
+    </div>
+</div>
+
+<div>&nbsp;</div>
+<div id = "grade_tbl" class="col-xs-12 col-sm-12 col-lg-12">
+                <div class="col-xs-12 col-sm-8 col-lg-8">
+                <table id="checkAllFeat" class="table table-striped">                                                                     
+                <thead id="t_head">                                                                                                                                     
+                <th> Grade From</th>                                                                                                                                          
+                <th> Grade To </th>                                                                                                                                 
+                <th> Grade Name</th> 
+                <th> Grade Point </th>                                                                                                                                               
+                </thead>
+                <tbody id="appendgrade">
+                </tbody>
+            </table>         
+</div>
+    </div>  
+
+    <div>&nbsp;</div>           
+            <div id="degree_tbl" class="col-xs-12 col-sm-12 col-lg-12">
+                <div class="col-xs-12 col-sm-8 col-lg-8">
+                <table id="checkAllFeat" class="table table-striped" align="center" >                                                                         
+                <thead id="t_head">                                                                                                                                     
+                <th><?php echo ConfigUtilities::getConfigValue(ConfigConstants::CONFIG_DEGREE); ?></th>                                                                                                                                          
+                <th><?php echo ConfigUtilities::getConfigValue(ConfigConstants::CONFIG_PROGRAMME); ?></th>                                                                                                                                 
+                <th> No of Section</th>                                                                                                                                                
+                </thead>
+                <tbody id="appendrows">
+                </tbody>
+                </table>   
+                </div>                     
+            </div>       
+
+    <div class="col-xs-12 col-sm-2 col-lg-2">
+        <div class="form-group">
+            <?= Html::submitButton($model->isNewRecord ? 'Confirm' : 'Update', 
+                    ['class' => $model->isNewRecord ? 'btn btn-block btn-success' : 'btn btn-block btn-primary','id'=>'BatchSubmit']) ?>
+        </div> 
+    </div>
+
+    <?php ActiveForm::end(); ?>
+        
+</div>
+</div>
+</div>

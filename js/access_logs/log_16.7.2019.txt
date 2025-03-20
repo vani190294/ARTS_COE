@@ -1,0 +1,52 @@
+User: 172.17.243.178 - July 16, 2019, 1:27 pm
+Accessed URLS: http://172.17.25.1:8082/COE/index.php?r=reports%2Findex
+----------------------------------------------------------------
+
+User: 172.17.243.178 - July 16, 2019, 1:27 pm
+Accessed URLS: http://172.17.25.1:8082/COE/index.php?r=reports%2Findex/images/notfound.png
+----------------------------------------------------------------
+
+User: 172.17.243.178 - July 16, 2019, 1:27 pm
+Accessed URLS: http://172.17.25.1:8082/COE/index.php?r=reports%2Findex/images/notfound.png
+----------------------------------------------------------------
+
+User: 172.17.243.178 - July 16, 2019, 1:27 pm
+Accessed URLS: http://172.17.25.1:8082/COE/index.php?r=reports%2Findex
+----------------------------------------------------------------
+
+User: 172.17.243.178 - July 16, 2019, 1:27 pm
+Accessed URLS: http://172.17.25.1:8082/COE/index.php?r=reports%2Findex/images/notfound.png
+----------------------------------------------------------------
+
+User: 172.17.243.178 - July 16, 2019, 1:27 pm
+Accessed URLS: http://172.17.25.1:8082/COE/index.php?r=site%2Flogin
+----------------------------------------------------------------
+
+User: 172.17.243.178 - July 16, 2019, 1:27 pm
+Accessed URLS: http://172.17.25.1:8082/COE/index.php?r=site%2Flogin/images/notfound.png
+----------------------------------------------------------------
+
+User: 172.17.243.178 - July 16, 2019, 1:27 pm
+Accessed URLS: http://172.17.25.1:8082/COE/index.php?r=site%2Flogin
+----------------------------------------------------------------
+
+User: 172.17.243.178 - July 16, 2019, 1:27 pm
+Accessed URLS: http://172.17.25.1:8082/COE/index.php?r=site%2Flogin/images/notfound.png
+----------------------------------------------------------------
+
+User: 172.17.243.178 - July 16, 2019, 1:27 pm
+Accessed URLS: http://172.17.25.1:8082/COE/index.php?r=site%2Flogin
+----------------------------------------------------------------
+
+User: 172.17.243.178 - July 16, 2019, 1:27 pm
+Accessed URLS: http://172.17.25.1:8082/COE/index.php?r=site%2Flogin/images/notfound.png
+----------------------------------------------------------------
+
+User: 172.17.243.178 - July 16, 2019, 1:27 pm
+Accessed URLS: http://172.17.25.1:8082/COE/
+----------------------------------------------------------------
+
+User: 172.17.243.178 - July 16, 2019, 1:27 pm
+Accessed URLS: http://172.17.25.1:8082/COE/
+----------------------------------------------------------------
+

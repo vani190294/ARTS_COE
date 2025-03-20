@@ -1,0 +1,86 @@
+<?php
+
+use yii\helpers\Html;
+use yii\grid\GridView;
+use yii\widgets\Pjax;
+use kartik\dialog\Dialog;
+use app\components\ConfigConstants;
+use app\components\ConfigUtilities;
+echo Dialog::widget();
+/* @var $this yii\web\View */
+/* @var $searchModel app\models\MarkEntryMasterSearch */
+/* @var $dataProvider yii\data\ActiveDataProvider */
+
+$this->title = 'Main Mark Entry ';
+$this->params['breadcrumbs'][] = $this->title;
+$visible = Yii::$app->user->can("/mark-entry-master/delete") || Yii::$app->user->can("/mark-entry-master/update") ? true : false; 
+?>
+<div class="mark-entry-master-index">
+    <h1><?= Html::encode($this->title) ?></h1>
+    <?php // echo $this->render('_search', ['model' => $searchModel]); ?>
+<?php Pjax::begin(); ?>    <?= GridView::widget([
+        'dataProvider' => $dataProvider,
+        'filterModel' => $searchModel,
+        'columns' => [
+            ['class' => 'yii\grid\SerialColumn'],
+
+            'year',
+            [
+                'label' =>'Month',
+                'attribute' => 'month',
+                'value' => 'monthName.description',               
+
+            ],
+            [
+                'label' =>'Mark Type',
+                'attribute' => 'mark_type',
+                'value' => 'markType.description',               
+
+            ],
+          /*  [
+                'label' =>'Term',
+                'attribute' => 'term',
+                'value' => 'term.description',               
+            ],*/
+            [
+                'label' =>'Reg No',
+                'attribute' => 'student_map_id',
+                'value' => 'studentDet.register_number',               
+
+            ],
+            [
+                'label' =>'Sub Code',
+                'attribute' => 'subject_map_id',
+                'value' => 'subjectDet.subject_code',               
+
+            ],
+            
+            'CIA',
+            'ESE',
+            'total',
+            'result',
+            'grade_point',
+            'grade_name',
+            
+            [
+                'class' => 'app\components\CustomActionColumn',
+                'header'=> 'Actions',
+                'template' => '{delete}',
+                'buttons' => [
+                    'view' => function ($url, $model) {
+                            return ((Yii::$app->user->can("/mark-entry-master/view")) ? Html::a('<span class="fa fa-hand-o-right increase_size"></span>', $url, ['title' => 'View',]) : '');
+                        },
+                    'update' => function ($url, $model) {
+                            return ((Yii::$app->user->can("/mark-entry-master/update")) ? Html::a('<span class="fa fa-pencil-square-o increase_size"></span>', $url, ['title' => 'Update',]) : '');
+                        },
+                    'delete' => function ($url, $model) {
+                            return ((Yii::$app->user->can("/mark-entry-master/delete")) ? Html::a('<span class="fa fa-ban increase_size"></span>', $url, ['title' => 'Delete', 
+                                'data' => ['confirm' => 'Are you sure you want to delete this item? This action can not be undo once deleted.'
+                                ,'method' => 'post'],]) : '');
+                        }
+                ],
+            'visible' => $visible,
+            ],
+        ],
+    ]); ?>
+<?php Pjax::end(); ?></div>

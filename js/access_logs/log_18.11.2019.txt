@@ -1,0 +1,220 @@
+User: 172.17.243.42 - November 18, 2019, 4:57 pm
+Accessed URLS: http://172.17.25.1:8082/COE/index.php?r=site%2Flogin
+----------------------------------------------------------------
+
+User: 172.17.243.42 - November 18, 2019, 4:57 pm
+Accessed URLS: http://172.17.25.1:8082/COE/index.php?r=site%2Flogin/images/notfound.png
+----------------------------------------------------------------
+
+User: 172.17.243.35 - November 18, 2019, 4:59 pm
+Accessed URLS: http://172.17.25.1:8082/COE/index.php?r=import%2Findex
+----------------------------------------------------------------
+
+User: 172.17.243.35 - November 18, 2019, 4:59 pm
+Accessed URLS: http://172.17.25.1:8082/COE/index.php?r=import%2Findex/images/notfound.png
+----------------------------------------------------------------
+
+User: 172.17.243.35 - November 18, 2019, 4:59 pm
+Accessed URLS: http://172.17.25.1:8082/COE/index.php?r=import%2Findex
+----------------------------------------------------------------
+
+User: 172.17.243.35 - November 18, 2019, 4:59 pm
+Accessed URLS: http://172.17.25.1:8082/COE/index.php?r=import%2Findex/images/notfound.png
+----------------------------------------------------------------
+
+User: 172.17.243.35 - November 18, 2019, 4:59 pm
+Accessed URLS: http://172.17.25.1:8082/COE/index.php?r=import%2Findex
+----------------------------------------------------------------
+
+User: 172.17.243.35 - November 18, 2019, 4:59 pm
+Accessed URLS: http://172.17.25.1:8082/COE/index.php?r=student%2Fcreate
+----------------------------------------------------------------
+
+User: 172.17.243.35 - November 18, 2019, 4:59 pm
+Accessed URLS: http://172.17.25.1:8082/COE/index.php?r=student%2Fcreate/images/notfound.png
+----------------------------------------------------------------
+
+User: 172.17.243.35 - November 18, 2019, 4:59 pm
+Accessed URLS: http://172.17.25.1:8082/COE/index.php?StudentSearch%5Bbatch_name%5D=2011&StudentSearch%5Bdegree_code%5D=&StudentSearch%5Bprogramme_code%5D=&StudentSearch%5Bsection_name%5D=&StudentSearch%5Bname%5D=&StudentSearch%5Bregister_number%5D=&StudentSearch%5Bemail_id%5D=&StudentSearch%5Bmobile_no%5D=&r=student%2Findex
+----------------------------------------------------------------
+
+User: 172.17.243.35 - November 18, 2019, 4:59 pm
+Accessed URLS: http://172.17.25.1:8082/COE/index.php?StudentSearch%5Bbatch_name%5D=2011&StudentSearch%5Bdegree_code%5D=&StudentSearch%5Bprogramme_code%5D=&StudentSearch%5Bsection_name%5D=&StudentSearch%5Bname%5D=&StudentSearch%5Bregister_number%5D=&StudentSearch%5Bemail_id%5D=&StudentSearch%5Bmobile_no%5D=&r=student%2Findex/images/notfound.png
+----------------------------------------------------------------
+
+User: 172.17.243.35 - November 18, 2019, 4:59 pm
+Accessed URLS: http://172.17.25.1:8082/COE/
+----------------------------------------------------------------
+
+User: 172.17.243.35 - November 18, 2019, 4:59 pm
+Accessed URLS: http://172.17.25.1:8082/COE/
+----------------------------------------------------------------
+
+User: 172.17.243.42 - November 18, 2019, 5:01 pm
+Accessed URLS: http://172.17.25.1:8082/COE/index.php?r=reports%2Findex
+----------------------------------------------------------------
+
+User: 172.17.243.42 - November 18, 2019, 5:01 pm
+Accessed URLS: http://172.17.25.1:8082/COE/index.php?r=reports%2Findex/images/notfound.png
+----------------------------------------------------------------
+
+User: 172.17.243.42 - November 18, 2019, 5:01 pm
+Accessed URLS: http://172.17.25.1:8082/COE/
+----------------------------------------------------------------
+
+User: 172.17.243.42 - November 18, 2019, 5:01 pm
+Accessed URLS: http://172.17.25.1:8082/COE/
+----------------------------------------------------------------
+
+User: 172.17.243.35 - November 18, 2019, 5:02 pm
+Accessed URLS: http://172.17.25.1:8082/COE/
+----------------------------------------------------------------
+
+User: 172.17.243.35 - November 18, 2019, 5:02 pm
+Accessed URLS: http://172.17.25.1:8082/COE/index.php?r=site%2Flogin
+----------------------------------------------------------------
+
+User: 172.17.243.35 - November 18, 2019, 5:02 pm
+Accessed URLS: http://172.17.25.1:8082/COE/index.php?r=site%2Flogin/images/notfound.png
+----------------------------------------------------------------
+
+User: 172.17.243.42 - November 18, 2019, 5:03 pm
+Accessed URLS: http://172.17.25.1:8082/COE/index.php?r=site%2Flogin
+----------------------------------------------------------------
+
+User: 172.17.243.42 - November 18, 2019, 5:03 pm
+Accessed URLS: http://172.17.25.1:8082/COE/index.php?r=site%2Flogin/images/notfound.png
+----------------------------------------------------------------
+
+User: 172.17.243.35 - November 18, 2019, 5:03 pm
+Accessed URLS: http://172.17.25.1:8082/COE/
+----------------------------------------------------------------
+
+User: 172.17.243.35 - November 18, 2019, 5:04 pm
+Accessed URLS: http://172.17.25.1:8082/COE/
+----------------------------------------------------------------
+
+User: 172.17.243.35 - November 18, 2019, 5:04 pm
+Accessed URLS: http://172.17.25.1:8082/COE/index.php?r=mark-entry%2Fstudentmark-view
+----------------------------------------------------------------
+
+User: 172.17.243.35 - November 18, 2019, 5:04 pm
+Accessed URLS: http://172.17.25.1:8082/COE/index.php?r=mark-entry%2Fstudentmark-view/images/notfound.png
+----------------------------------------------------------------
+
+User: 172.17.243.35 - November 18, 2019, 5:04 pm
+Accessed URLS: http://172.17.25.1:8082/COE/index.php?r=mark-entry%2Fstudentmark-view
+----------------------------------------------------------------
+
+User: 172.17.243.35 - November 18, 2019, 5:04 pm
+Accessed URLS: http://172.17.25.1:8082/COE/index.php?r=mark-entry%2Fstudentmark-view/images/notfound.png
+----------------------------------------------------------------
+
+User: 172.17.243.35 - November 18, 2019, 5:04 pm
+Accessed URLS: http://172.17.25.1:8082/COE/index.php?r=mark-entry%2Fstudentmark-view
+----------------------------------------------------------------
+
+User: 172.17.243.35 - November 18, 2019, 5:04 pm
+Accessed URLS: http://172.17.25.1:8082/COE/index.php?r=mark-entry%2Fstudentmark-view/images/notfound.png
+----------------------------------------------------------------
+
+User: 172.17.243.35 - November 18, 2019, 5:13 pm
+Accessed URLS: http://172.17.25.1:8082/COE/
+----------------------------------------------------------------
+
+User: 172.17.243.35 - November 18, 2019, 5:13 pm
+Accessed URLS: http://172.17.25.1:8082/COE/index.php?r=mark-entry%2Fstudentmark-view
+----------------------------------------------------------------
+
+User: 172.17.243.35 - November 18, 2019, 5:13 pm
+Accessed URLS: http://172.17.25.1:8082/COE/index.php?r=mark-entry%2Fstudentmark-view/images/notfound.png
+----------------------------------------------------------------
+
+User: 172.17.243.35 - November 18, 2019, 5:13 pm
+Accessed URLS: http://172.17.25.1:8082/COE/index.php?r=site%2Flogin
+----------------------------------------------------------------
+
+User: 172.17.243.35 - November 18, 2019, 5:13 pm
+Accessed URLS: http://172.17.25.1:8082/COE/index.php?r=site%2Flogin/images/notfound.png
+----------------------------------------------------------------
+
+User: 172.17.243.35 - November 18, 2019, 5:13 pm
+Accessed URLS: http://172.17.25.1:8082/COE/index.php?r=site%2Flogin
+----------------------------------------------------------------
+
+User: 172.17.243.35 - November 18, 2019, 5:13 pm
+Accessed URLS: http://172.17.25.1:8082/COE/index.php?r=site%2Flogin/images/notfound.png
+----------------------------------------------------------------
+
+User: 172.17.243.35 - November 18, 2019, 5:13 pm
+Accessed URLS: http://172.17.25.1:8082/COE/index.php?r=site%2Flogin
+----------------------------------------------------------------
+
+User: 172.17.243.35 - November 18, 2019, 5:13 pm
+Accessed URLS: http://172.17.25.1:8082/COE/index.php?r=site%2Flogin/images/notfound.png
+----------------------------------------------------------------
+
+User: 172.17.243.35 - November 18, 2019, 5:13 pm
+Accessed URLS: http://172.17.25.1:8082/COE/index.php?r=site%2Flogin
+----------------------------------------------------------------
+
+User: 172.17.243.35 - November 18, 2019, 5:13 pm
+Accessed URLS: http://172.17.25.1:8082/COE/index.php?r=site%2Flogin/images/notfound.png
+----------------------------------------------------------------
+
+User: 172.17.243.35 - November 18, 2019, 5:13 pm
+Accessed URLS: http://172.17.25.1:8082/COE/index.php?r=site%2Flogin
+----------------------------------------------------------------
+
+User: 172.17.243.35 - November 18, 2019, 5:13 pm
+Accessed URLS: http://172.17.25.1:8082/COE/index.php?r=site%2Flogin/images/notfound.png
+----------------------------------------------------------------
+
+User: 172.17.243.35 - November 18, 2019, 5:14 pm
+Accessed URLS: http://172.17.25.1:8082/COE/
+----------------------------------------------------------------
+
+User: 172.17.243.35 - November 18, 2019, 5:14 pm
+Accessed URLS: http://172.17.25.1:8082/COE/index.php?r=site%2Flogin
+----------------------------------------------------------------
+
+User: 172.17.243.35 - November 18, 2019, 5:14 pm
+Accessed URLS: http://172.17.25.1:8082/COE/index.php?r=site%2Flogin/images/notfound.png
+----------------------------------------------------------------
+
+User: 172.17.243.42 - November 18, 2019, 5:16 pm
+Accessed URLS: http://172.17.25.1:8082/COE/index.php?r=site%2Flogin
+----------------------------------------------------------------
+
+User: 172.17.243.42 - November 18, 2019, 5:16 pm
+Accessed URLS: http://172.17.25.1:8082/COE/index.php?r=site%2Flogin/images/notfound.png
+----------------------------------------------------------------
+
+User: 172.17.243.35 - November 18, 2019, 5:17 pm
+Accessed URLS: http://172.17.25.1:8082/COE/
+----------------------------------------------------------------
+
+User: 172.17.243.42 - November 18, 2019, 5:19 pm
+Accessed URLS: http://172.17.25.1:8082/COE/
+----------------------------------------------------------------
+
+User: 172.17.243.42 - November 18, 2019, 6:12 pm
+Accessed URLS: http://172.17.25.1:8082/COE/index.php?r=site%2Flogin
+----------------------------------------------------------------
+
+User: 172.17.243.42 - November 18, 2019, 6:12 pm
+Accessed URLS: http://172.17.25.1:8082/COE/index.php?r=site%2Flogin/images/notfound.png
+----------------------------------------------------------------
+
+User: 172.17.243.42 - November 18, 2019, 6:12 pm
+Accessed URLS: http://172.17.25.1:8082/COE/index.php?r=site%2Flogin
+----------------------------------------------------------------
+
+User: 172.17.243.42 - November 18, 2019, 6:12 pm
+Accessed URLS: http://172.17.25.1:8082/COE/index.php?r=site%2Flogin/images/notfound.png
+----------------------------------------------------------------
+
+User: 172.17.243.42 - November 18, 2019, 6:12 pm
+Accessed URLS: http://172.17.25.1:8082/COE/
+----------------------------------------------------------------
+

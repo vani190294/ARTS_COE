@@ -1,0 +1,24 @@
+User: 172.17.25.9 - October 16, 2018, 9:44 am
+Accessed URLS: http://172.17.25.1:8082/COE/index.php?r=import%2Findex
+----------------------------------------------------------------
+
+User: 172.17.25.9 - October 16, 2018, 9:44 am
+Accessed URLS: http://172.17.25.1:8082/COE/index.php?r=import%2Findex/images/notfound.png
+----------------------------------------------------------------
+
+User: 172.17.25.9 - October 16, 2018, 9:45 am
+Accessed URLS: http://172.17.25.1:8082/COE/index.php
+----------------------------------------------------------------
+
+User: 172.17.25.9 - October 16, 2018, 9:45 am
+Accessed URLS: http://172.17.25.1:8082/COE/index.php/images/notfound.png
+----------------------------------------------------------------
+
+User: 172.17.25.9 - October 16, 2018, 9:45 am
+Accessed URLS: http://172.17.25.1:8082/COE/index.php?r=site%2Flogin
+----------------------------------------------------------------
+
+User: 172.17.25.9 - October 16, 2018, 9:45 am
+Accessed URLS: http://172.17.25.1:8082/COE/index.php?r=site%2Flogin/images/notfound.png
+----------------------------------------------------------------
+

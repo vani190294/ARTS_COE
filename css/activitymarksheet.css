@@ -1,0 +1,127 @@
+.acthead
+{
+    padding-top: 190px !important;
+    line-height: 1.6em;
+    text-align: center;
+    font-weight: bold;
+}
+.actbody
+{
+    margin:auto;
+    padding-top: 160px !important; 
+    text-align: center !important;
+    line-height: 1.6em;
+    width: 600px !important;
+    height:550px !important;
+}
+.actbody table
+{
+    font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 12px !important;
+    border: none !important;
+}
+.actbody table td{
+    border: none !important;
+    text-align: left;
+    
+}
+.subject_name
+{
+    padding-left: 15px !important; 
+}
+
+.actbody table th{
+    padding-bottom: 15px !important; 
+    border: none !important;
+}
+.act_earned
+{
+    padding-top: 15px !important; 
+    text-align: center !important;
+}
+.aicte_act
+{
+    font-size: 8px !important;
+    text-align: center !important;
+}
+
+.actfooter
+{
+    padding-top: -109px !important;
+    /*padding-top: -102px !important;*/
+    line-height: 1.6em;
+    width: 600px !important;
+    margin:auto; 
+    
+}
+
+.actfooter table
+{
+    font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 12px !important;
+    border: none !important;
+    font-weight: bold;
+}
+.actfooter table td{
+    border: none !important;
+    vertical-align: top;
+}
+.degree_code
+{
+    font-weight: bold;
+    width: 100px !important; 
+    font-size: 11px !important;
+    text-align: left !important;
+    padding-left:10px;
+}
+.programme_name
+{
+    font-weight: bold;
+    width: 220px !important; 
+    font-size: 11px !important;
+    word-wrap: break-word;
+    text-align: center !important;
+    padding-left:25px;
+}
+.batch_name
+{
+    font-weight: bold;
+    width: 150px !important; 
+    font-size: 11px !important;
+    text-align: center !important;
+    padding-left:70px;
+}
+.regulation_year
+{
+    font-weight: bold;
+    width: 100px !important; 
+    font-size: 11px !important;
+    text-align: center !important;
+    padding-left:80px;
+}
+
+/*.actdatefooter
+{
+    padding-top: 145px !important;
+    font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+    border: none !important;
+    font-weight: bold;
+    font-size: 12px !important;
+    vertical-align: bottom;
+    text-align: left !important;
+    padding-left:-20px;
+}*/
+
+.footerpage
+{
+    font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding-left:-20px;
+    text-align:left; 
+    border: none !important;
+    font-weight: bold;
+    font-size: 12px !important;
+}
+.top
+{
+    padding-top:3px;
+}

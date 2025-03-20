@@ -1,0 +1,153 @@
+<?php
+
+use yii\helpers\Html;
+use yii\widgets\ActiveForm;
+use yii\helpers\ArrayHelper;
+use yii\helpers\Url;
+use app\assets\AppAsset;
+use kartik\widgets\Select2;
+use app\components\ConfigConstants;
+use app\components\ConfigUtilities;
+use kartik\dialog\Dialog;
+use app\models\HallAllocate;
+echo Dialog::widget();
+use app\models\ValuationSettings;
+
+$ValuationSettings = ValuationSettings::findOne(1);
+
+/* @var $this yii\web\View */
+/* @var $model app\models\ExamTimetable */
+/* @var $form yii\widgets\ActiveForm */
+
+$this->title = "Revaluation Marks Verify";
+$this->params['breadcrumbs'][] = $this->title;
+
+ $this->registerJs("$(document).ready(function() { $(window).keydown(function(event){ if(event.keyCode == 13) { event.preventDefault(); return false; } }); });");
+?>
+<style> 
+.dummynumber{border: 1px solid #000;}
+.table1{border: 1px solid #000;}
+.table1 th{border: 1px solid #000;}
+
+</style>
+<h1><?php echo $this->title; ?></h1>
+
+<div>&nbsp;</div>
+<div class="exam-timetable-form">
+<div class="box box-success">
+<div class="box-body"> 
+<?php Yii::$app->ShowFlashMessages->showFlashes();?> 
+<?php 
+
+$form = ActiveForm::begin(); ?>
+<div>&nbsp;</div>
+<div class="row">
+<div class="col-xs-12 col-sm-12 col-lg-12">
+   <div class="col-xs-12 col-sm-12 col-lg-12"> 
+         
+          <?= $form->field($model, 'year')->hiddenInput(['id'=>'exam_year','value'=> $ValuationSettings['current_exam_year']])->label(false); ?>
+
+            <?= $form->field($model, 'month')->hiddenInput(['id'=>'reval_exam_month','value'=> $ValuationSettings['current_exam_month']])->label(false); ?>
+        
+        <div class="col-xs-12 col-sm-2 col-lg-2">
+             <?php 
+                echo $form->field($factallModel,'scrutiny_date')->widget(
+                Select2::classname(), [
+                    'options' => [
+                        'placeholder' => '-----Select Scrutiny Date----',
+                        'id' => 'reval_scrutiny_date',         
+                    ],
+                    'pluginOptions' => [
+                        'allowClear' => true,
+
+                    ],
+                ]); 
+            ?>      
+                     
+        </div> 
+
+        <div class="col-xs-12 col-sm-2 col-lg-2">
+              <?php 
+                echo $form->field($factallModel,'scrutiny_session')->widget(
+                Select2::classname(), [
+                    'options' => [
+                        'placeholder' => '-----Select session----',
+                        'id' => 'reval_scrutiny_session',         
+                    ],
+                    'pluginOptions' => [
+                        'allowClear' => true,
+
+                    ],
+                ])->label("Session"); 
+            ?>   
+                     
+        </div>
+
+        <div class="col-xs-12 col-sm-3 col-lg-3">
+           <?php echo $form->field($factallModel,'coe_val_faculty_id')->widget(
+                Select2::classname(), [
+                    'options' => [
+                        'placeholder' => '-----Select Faculty----',      
+                        'id'=>'reval_faculty_all_id',                   
+                    ],
+                    'pluginOptions' => [
+                        'allowClear' => true,
+                    ],
+                ])->label("Assigned Faculty");  
+            ?>  
+        </div> 
+
+         <div class="col-xs-12 col-sm-2 col-lg-2">
+            <?= $form->field($model, 'student_map_id')->passwordInput(['placeholder'=>'Scan Dummy No.','id'=>'dummynumber',])->label('Scan Dummy Number') ?>
+             
+        </div>
+    </div>
+    <div class="col-xs-12 col-sm-12 col-lg-12" id="show_reset"> 
+         
+        <div class="col-xs-12 col-sm-2 col-lg-2"> <br />
+            <?= Html::Button('Show' ,['onClick'=>"getscrutinyrevalentry();",'class' => 'btn btn-success' ]) ?>
+            <?= Html::a("Reset", Url::toRoute(['dummy-numbers/reval-marks-uverify']), ['onClick'=>"spinner();",'class' => 'btn btn-group btn-group-lg btn-warning ']) ?>
+        </div>
+        
+    </div>
+    
+ </div> <!-- Row Closed -->
+
+   <div id='hide_bar_code_data' class="row">
+    <div  class="col-xs-12" style="text-align: center;">
+            
+            <div class="col-xs-12" style="display: none;">
+                <h2>
+                <div id="show_scrutiny_entry_head">  </div></h2>
+            </div>
+             <div class="col-xs-12" style="display: none;">
+                <h3>
+                <div id="show_scrutiny_entry_master">  </div></h3>
+            </div>
+            <div class="col-xs-12">
+                <div id="show_scrutiny_entry">  </div>
+            </div>
+        
+    </div> <!-- Row Closed -->
+    </div>
+
+    <div><input type="hidden" id="markdesign"/></div>
+
+   
+
+
+</div>
+</div>
+<input type="hidden" id="val_barecode_id"/>
+<input type="hidden" id="markentry_design_type"/>
+
+<input type="hidden" id="mark-insert-success"/>
+
+<input type="hidden" id="mark-insert-error"/>
+<input type="hidden" id="mark-insert-empty_dum_no"/>
+
+<?php ActiveForm::end(); ?>
+
+
+</div>
+

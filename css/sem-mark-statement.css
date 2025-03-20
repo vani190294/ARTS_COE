@@ -1,0 +1,363 @@
+table{
+    font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+/*    width:100%;*/
+    font-size: 12px !important;
+    border: none !important;
+    font-weight: bold;
+   /* color: red;*/
+}
+table td{
+    border: none !important;
+}
+
+.header_content
+{
+	padding-top: 39px !important;
+	height: 255px !important;
+	position: fixed;
+	line-height: 1.6em !important;
+}
+.header_content1
+{
+	padding-top: 161px !important;
+	height: 255px !important;
+	position: fixed;
+	line-height: 1.6em !important;
+}
+.emptyspace5
+{
+	padding-top: 8px !important
+}
+
+.stu_photo
+{
+	text-align: right !important;
+    float: right !important;
+    padding-right: 20px !important;
+}
+
+.img-responsive
+{
+    width: 80px !important;
+    height: 95px !important;    
+}
+
+.umis
+{
+	text-align: right !important;
+    float: right !important;
+	padding-top: 5px !important;
+	padding-right: 18px !important;
+	width: 300px !important;
+	overflow: hidden;
+}
+
+.emptyspace
+{
+	width: 60px !important;
+}
+
+.stuname
+{
+	padding-top: 5px !important;
+	padding-left: 70px;
+	line-height: 1.7em;
+	width: 230px !important;
+	overflow: hidden;
+}
+
+.stuname1
+{
+	padding-top: 5px !important;
+	padding-left: 70px;
+	line-height: 1.7em;
+	width: 230px !important;
+	overflow: hidden;
+}
+
+
+.registernumber
+{
+	padding-top: 5px !important;
+	padding-left: 70px;
+	line-height: 1.7em;
+	width: 230px !important;
+	overflow: hidden;
+}
+
+.registernumber1
+{
+	padding-top: 5px !important;
+	padding-left: 70px;
+	line-height: 1.7em;
+	width: 230px !important;
+	overflow: hidden;
+}
+
+.dob
+{
+	padding-top: 5px !important;
+	padding-left:115px;
+	text-align: left;
+	width: 196px !important;
+	overflow: hidden;
+}
+
+
+.exammonth
+{
+	padding-top: 5px !important;
+	padding-left: 174px;
+	text-align: left;
+}
+.gender
+{
+	padding-top: 5px !important;
+	padding-left: 174px;
+	text-align: left;
+}
+
+.reg_year
+{
+	padding-top: 5px !important;
+	padding-left: 174px;
+	text-align: left;
+}
+
+.degreename
+{
+	padding-top: 5px !important;
+	padding-left: 70px;
+	line-height: 1.7em;
+	width: 230px !important;
+	overflow: hidden;
+}
+
+.degreename1
+{
+	padding-top: 5px !important;
+	padding-left: 70px;
+	line-height: 1.7em;
+	width: 230px !important;
+	overflow: hidden;
+}
+
+.degreename2
+{
+	padding-top: 2px !important;
+	padding-left: 70px;
+	width: 230px !important;
+	font-size: 11px !important;
+	overflow: hidden;
+}
+
+.degreename3
+{
+	padding-top: 5px !important;
+	padding-left: 70px;
+	width: 230px !important;
+	font-size: 10px !important;
+	overflow: hidden;
+}
+
+.body_content
+{
+	height: 800px !important;
+	position: fixed;
+	padding-top: 288px !important;
+	line-height: 1.7em !important;
+	vertical-align: top !important;
+	font-size:10px !important;
+}
+
+
+
+.sem
+{
+	vertical-align: top !important;
+	width: 35px !important;
+}
+
+.subjectcode
+{
+	width: 67px !important;
+	vertical-align: top !important;
+}
+
+
+
+.subjectname
+{
+	width: 440px !important;
+	padding-left: 12px;
+}
+
+.subjectname1
+{
+	width: 440px !important;
+	padding-left: 7px;
+}
+
+.subject_completed
+{
+	width: 205px !important;
+	text-align: left;
+	padding-left:20px;
+}
+
+.subject_completed1
+{
+	width: 152px !important;
+	text-align: left;
+	padding-left:20px;
+}
+
+.credit_points
+{
+	vertical-align: top !important;
+	width: 52px !important;
+	text-align: left;
+	padding-left: -10px !important;
+}
+
+.grade_name
+{
+	vertical-align: top !important;
+	width: 45px !important;
+	padding-left: -10px !important;
+}
+
+.grade_point_print
+{
+	vertical-align: top !important;
+	padding-left: 5px;
+	width: 55px !important;
+}
+
+.result_stu
+{
+	vertical-align: top !important;
+	width: 50px !important;
+	text-align: left;
+	padding-left: -15px !important;
+}
+
+.end_stmt
+{
+	text-align: center;
+}
+
+.add_cred_stmt
+{
+	font-size: 8px !important;
+	text-align: left;
+	padding-left: 12px;
+}
+
+.add_content
+{
+	position: fixed;
+	padding-top: 873px !important;
+}
+
+.add_code
+{
+	width: 102px;
+}
+.add_cred_earned_stmt
+{
+	font-size: 12px !important;
+	text-align: left;
+	padding-left: 12px;
+}
+
+.footer_content
+{
+	position: fixed;
+	padding-top: 920px !important;
+}
+
+.emptyspace1
+{
+	width: 184px !important;
+}
+
+.emptyspace11
+{
+	width: 178px !important;
+}
+
+.non_registered_credit,.non_sem_earned_credit,.non_sem_gpa
+{
+	width: 78px !important;
+	height: 20px !important;
+	text-align: center !important;
+	overflow: hidden;
+	padding-left: -25px !important;
+	color:white !important
+}
+
+.registered_credit,.sem_earned_credit,.sem_gpa
+{
+	width: 78px !important;
+	height: 20px !important;
+	text-align: center !important;
+	overflow: hidden;
+	padding-left: -25px !important
+}
+
+.other_registered_credit,.other_sem_earned_credit,.other_sem_gpa
+{
+	width: 76px !important;
+	height: 20px !important;
+	text-align: center !important;
+	overflow: hidden;
+	padding-left: -15px !important
+}
+
+.footer_content1
+{
+	position: fixed;
+	padding-top: 990px !important;
+}
+
+.emptyspace3
+{
+	width: 176px !important;
+}
+
+
+.cumulative_earned_credits
+{
+	position: fixed;
+	width: 30px !important;
+	height: 20px !important;
+	text-align: left;
+	overflow: hidden;
+	padding-left: 15px;
+}
+.emptyspace4
+{
+	width: 352px !important;
+	overflow: hidden;
+}
+
+.cgpa
+{
+	position: fixed !important;
+	width: 60px !important;
+	text-align: left;
+	height: 20px !important;
+	vertical-align: top !important;
+	overflow: hidden;
+}
+
+.print_date
+{
+	height: 100px !important;
+	width: 100px !important;
+	padding-top: 1090px !important;
+	padding-left: 34px;
+	font-size: 14px !important;
+	position: fixed !important;
+}

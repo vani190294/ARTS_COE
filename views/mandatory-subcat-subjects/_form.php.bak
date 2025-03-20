@@ -1,0 +1,170 @@
+<?php
+
+use yii\helpers\Html;
+use yii\widgets\ActiveForm;
+use yii\helpers\ArrayHelper;
+use yii\helpers\Url;
+use app\assets\AppAsset;
+use app\models\BatDegReg;
+use app\models\Categorytype;
+use app\models\Batch;
+use kartik\widgets\Select2;
+use app\components\ConfigConstants;
+use app\components\ConfigUtilities;
+use kartik\dialog\Dialog;
+echo Dialog::widget();
+$batch_id=isset($model->coe_batch_id)?$model->coe_batch_id:'';
+$batch_map_id=isset($model->batch_map_id)?$model->batch_map_id:'';
+$checkAccess = ConfigUtilities::HasSuperAccess(Yii::$app->user->getId());
+$give_access = 'NO';
+if($checkAccess=='Yes')
+{
+    $give_access = 'YES';
+}   
+if(isset($model->coe_batch_id))
+{
+    $this->registerJs("$(document).ready(function() { $('.student_disable').attr('disabled',true)});");
+}
+$add_calss = $give_access=='YES'?'':'student_disable';
+?>
+
+<div class="subjects-form">
+<div class="box box-success">
+<div class="box-body">
+     <?php Yii::$app->ShowFlashMessages->showFlashes();?>
+<div>&nbsp;</div>
+
+    <?php 
+    $condition = $model->isNewRecord?true:false;
+    $form = ActiveForm::begin([
+                    'id' => 'categories-form',
+                    'enableAjaxValidation' => $condition,
+                    'fieldConfig' => [
+                    'template' => "{label}{input}{error}",
+
+                    ],
+            ]); ?>
+    <div class="row"> 
+    <div class="col-xs-12 col-sm-12 col-lg-12">
+        <div class="col-xs-12 col-sm-12 col-lg-12"> 
+            <div class="col-lg-2 col-sm-2">
+                <?php echo $form->field($subjects,'coe_batch_id')->widget(
+                    Select2::classname(), [
+                        'data' => ConfigUtilities::getBatchDetails(),
+                        
+                        'options' => [
+                            'placeholder' => '-----Select '.ConfigUtilities::getConfigValue(ConfigConstants::CONFIG_BATCH).' ----',
+                            'id' => 'stu_batch_id_selected',
+                            'value'=> $batch_id,
+                            'class'=>'form-control student_disable',
+                        ],
+                       'pluginOptions' => [
+                           'allowClear' => true,
+                        ],
+                    ])->label(ConfigUtilities::getConfigValue(ConfigConstants::CONFIG_BATCH)); 
+                ?>
+            </div>      
+            <div class="col-lg-2 col-sm-2">
+                <?php echo $form->field($model, 'batch_map_id')->widget(
+                    Select2::classname(), [
+                    'data'=>ConfigUtilities::getDegreedetails(),
+                        'options' => [
+                            'placeholder' => '--- Select '.ConfigUtilities::getConfigValue(ConfigConstants::CONFIG_PROGRAMME).' ---',
+                            'id' => 'stu_programme_selected',
+                            'onchange'=>'getMaSubjectsList(this.id,this.value);',
+                            'class'=>'form-control student_disable',
+                        ],
+                        'pluginOptions' => [
+                            'allowClear' => true,
+                        ],
+                    ])->label(ConfigUtilities::getConfigValue(ConfigConstants::CONFIG_PROGRAMME)); 
+                ?>
+            </div>      
+            <div class="col-lg-2 col-sm-2">
+                <?php echo $form->field($model, 'man_subject_id')->widget(
+                    Select2::classname(), [
+                    'data'=>$mandatorySubjects->getAllSubjects(),
+
+                        'options' => [
+                            'placeholder' => '-----Select '.ConfigUtilities::getConfigValue(ConfigConstants::CONFIG_SUBJECT).' ----',
+                            'onChange' => 'getSubjectsList();',
+                            'class'=>'form-control student_disable',
+                        ],
+                        'pluginOptions' => [
+                            'allowClear' => true,
+                        ],
+                    ])->label("Mandatory ".ConfigUtilities::getConfigValue(ConfigConstants::CONFIG_SUBJECT)); 
+                ?>
+            </div>
+          
+            <div class="col-lg-2 col-sm-2">  
+                <input type="hidden" name="paper_no" id='man_pap_no' >            
+                <?= $form->field($model, 'is_additional')->checkboxList(['yes'=>'YES']) ->label('Additional Credit '.ConfigUtilities::getConfigValue(ConfigConstants::CONFIG_SUBJECT)) ?>
+            </div> 
+             <div class="col-lg-2 col-sm-2">
+                <?php echo $form->field($model, 'created_at')->widget(
+                    Select2::classname(), [
+                    'data'=>ConfigUtilities::getManDegreedetails($batch_id,$batch_map_id),
+                        'options' => [
+                            'placeholder' => '--- Select '.ConfigUtilities::getConfigValue(ConfigConstants::CONFIG_PROGRAMME).' ---',
+                            'id' => 'mandatory_stu_selected',
+
+                            'multiple'=>true,
+                        ],
+                        'pluginOptions' => [
+                            'allowClear' => true,
+                        ],
+                    ])->label(ConfigUtilities::getConfigValue(ConfigConstants::CONFIG_PROGRAMME)); 
+                ?>
+            </div>
+           
+        </div>
+    </div>
+</div>
+
+<div class="row"> 
+    <div class="col-xs-12 col-sm-12 col-lg-12">
+        <div class="col-xs-12 col-sm-12 col-lg-12">
+            <div class="col-sm-3 col-lg-3">
+            <?= $form->field($model, 'sub_cat_code')->textInput(['maxlength' => true,'class'=>'form-control student_disable']) ?>
+            </div>
+            <div class="col-sm-3 col-lg-3">
+                
+                <?= $form->field($model, 'sub_cat_name')->textInput(['maxlength' => true,'class'=>"form-control $add_calss",'placeholder'=>'Enter the '.ConfigUtilities::getConfigValue(ConfigConstants::CONFIG_SUBJECT).' Name']) ?>
+            </div>
+            <div class="col-sm-3 col-lg-3">
+                <?= $form->field($model, 'credit_points')->textInput(['value'=>1]) ?>
+            </div> 
+              <div class="col-lg-3 col-sm-3">
+                <?php
+                    $course_type_id = Categorytype::find()->where(['description'=>'Optional'])->one();
+                    $subject_type_id = Categorytype::find()->where(['description'=>'Mandatory Course'])->one();
+                    $paper_type_id = Categorytype::find()->where(['description'=>'Theory'])->one();
+                   
+                    $model->course_type_id = $course_type_id['coe_category_type_id'];
+                    $model->subject_type_id = $subject_type_id['coe_category_type_id'];
+                    $model->paper_type_id = $paper_type_id['coe_category_type_id'];
+                ?>
+            </div>  
+           
+        </div>
+    </div>
+</div>
+
+<div class="row"> 
+    <div class="col-xs-12 col-sm-12 col-lg-12">
+        <div class="col-xs-12 col-sm-12 col-lg-12">
+           <br />
+            <div class="col-lg-3 col-sm-3">
+                <?= Html::submitButton($model->isNewRecord ? 'Create' : 'Update', ['class' => $model->isNewRecord ? 'btn btn-success' : 'btn btn-primary']) ?>
+
+                <?= Html::a('Reset', ['create'], ['class' => 'btn btn-default']) ?>
+            </div>
+                
+           </div>
+    </div>
+</div>
+
+    <?php ActiveForm::end(); ?>
+</div>
+</div>

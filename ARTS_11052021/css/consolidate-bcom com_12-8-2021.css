@@ -1,0 +1,610 @@
+.line_height{
+    line-height: 1.7em;
+}
+table{
+    font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+    width:100%;
+    font-size: 15.5px !important;
+}
+
+table td{
+    border: none !important;
+}
+.subjects_tables ,.print_cgpa_size
+{
+    font-size: 15.5px !important;
+    font-weight: bold !important;
+}
+
+.left_body
+{
+    width: 40% !important;
+
+}
+.right_body
+{    
+    padding-left: 38px !important;
+    width: 60% !important;
+    padding-top: -320px !important;
+}
+.print_credit_points
+{
+    padding-left: 15px;
+    font-size: 15.5px;
+}
+.print_credit_points_add
+{
+    padding-left: 35px;
+    font-size: 15.5px;
+}
+.cumulative_row
+{
+    padding-left: 65px !important;
+    width: 30px !important;
+    font-size: ;
+    margin-top: -19px !important;
+    margin-left: -15px !important;
+}
+.margin_right
+{
+    padding-right: 5px;
+}
+.date_style
+{
+    padding-left: 35px !important;
+    padding-top: 73px !important;
+}
+.print_tri_sem{
+    font-weight: bold; 
+    font-size: 15.5px; 
+    padding-top: 0px; 
+    text-align: center;
+    margin-top: -12px !important;
+    padding-top: -12px !important;
+}
+.cumulative_credits
+{
+    padding-left: 35px;
+}
+.cumulative_cgpa
+{
+    padding-right: 40px !important;
+    margin-left: -15px !important;
+    padding-left: -15px !important;
+}
+.print_classification
+{
+    padding-right: 72px !important;
+    font-size: 15.5px !important;
+}
+.sem_print
+{
+    width: 35px;
+    padding-left: 4px;
+}
+.print_mba
+{
+    padding-top: 70px !important;
+    margin-left: 45px !important;
+    font-weight: bold !important;
+    font-size: 15.5px !important;
+    padding-right: -48px !important;
+    letter-spacing: 0.04em;
+    text-align: right !important;
+    border: none; 
+}
+.take_top
+{
+    margin-top: -13px !important;
+}
+.end_of_statement
+{
+    font-size: 15.5px !important;
+    font-weight: bold !important;
+    text-align: center !important; 
+}
+.additional_credits_print
+{
+    font-weight: bold !important; 
+    font-size: 15.5px !important;
+    text-align: left !important;
+    padding-left: 30px !important;
+    width: 500px !important;
+}
+.additional_credits
+{
+    font-weight: bold !important; 
+    font-size: 15px !important;
+    text-align: left !important;
+    padding-left: 30px !important;
+    width: 500px !important;
+}
+.header_print_stu
+{
+    padding-top: 28px; 
+    padding-bottom:-6px; 
+    border: none;
+    text-transform: uppercase;
+}
+.makeitBigger
+{
+    font-size: 17.5px !important;
+    font-weight: bold !important;
+}
+.put_some_gap{
+    padding-top: 35px !important;
+}
+.push_left
+{
+    padding-left: 30px !important;
+}
+.student_name
+{
+    text-align: center !important;
+    padding-left: 30px !important;
+    padding-top: 6px !important;
+
+}
+
+
+.dob
+{
+    
+    padding-right: 40px !important;
+    padding-top: 6px !important;
+}
+
+
+.change_cumulative
+{
+   padding-top: -30px !important; 
+   padding-left: 30px !important;
+}
+.change_cumulative_30
+{
+    padding-top: 135px !important;
+    padding-left: 30px !important;
+}
+.change_cumulative_31
+{
+    padding-top: -135px !important;
+    padding-left: 30px !important;
+}
+.change_cumulative_32
+{
+    padding-top: -135px !important;
+    padding-left: 30px !important;
+}
+.change_cumulative_33
+{
+    padding-top: -135px !important;
+    padding-left: 30px !important;
+}
+.change_cumulative_34
+{
+    padding-top: -135px !important;
+    padding-left: 30px !important;
+}
+.change_cumulative_35
+{
+    padding-top: -130px !important;
+    padding-left: 30px !important;
+}
+.change_cumulative_36
+{
+    padding-top: -130px !important;
+    padding-left: 30px !important;
+}
+.change_cumulative_37
+{
+    padding-top: -130px !important;
+    padding-left: 30px !important;
+}
+.change_cumulative_38
+{
+    padding-top: -130px !important;
+    padding-left: 30px !important;
+}
+.change_cumulative_40
+{
+    padding-top: -125px !important;
+    padding-left: 30px !important;
+}
+.change_cumulative_41
+{
+    padding-top: -125px !important;
+    padding-left: 30px !important;
+}
+.change_cumulative_42
+{
+    padding-top: -125px !important;
+    padding-left: 30px !important;
+}
+.change_cumulative_43
+{
+    padding-top: -125px !important;
+    padding-left: 30px !important;
+}
+.change_cumulative_44
+{
+    padding-top: -125px !important;
+    padding-left: 30px !important;
+}
+.change_cumulative_45
+{
+    padding-top: -120px !important;
+    padding-left: 30px !important;
+}
+
+.change_cumulative_46
+{
+    padding-top: -110px !important;
+    padding-left: 30px !important;
+}
+.change_cumulative_47
+{
+    padding-top: -110px !important;
+    padding-left: 30px !important;
+}
+.change_cumulative_48
+{
+    padding-top: -110px !important;
+    padding-left: 30px !important;
+}
+.change_cumulative_49
+{
+    padding-top: -110px !important;
+    padding-left: 30px !important;
+}
+.change_cumulative_50
+{
+    padding-top: -110px !important;
+    padding-left: 30px !important;
+}
+.change_cumulative_51
+{
+    padding-top: -110px !important;
+    padding-left: 30px !important;
+}
+.change_cumulative_52 /* rEDUCED 5PX */
+{
+    padding-top: -105px !important;
+    padding-left: 30px !important;
+}
+.change_cumulative_53
+{
+    padding-top: -105px !important;
+    padding-left: 30px !important;
+}
+.change_cumulative_54
+{
+    padding-top: -100px !important;
+    padding-left: 30px !important;
+}
+.change_cumulative_55
+{
+    padding-top: -100px !important;
+    padding-left: 30px !important;
+}
+.change_cumulative_56
+{
+    padding-top: -100px !important;
+    padding-left: 30px !important;
+}
+.change_cumulative_57
+{
+    padding-top: -100px !important;
+    padding-left: 30px !important;
+}
+.change_cumulative_58
+{
+    padding-top: -100px !important;
+    padding-left: 30px !important;
+}
+.change_cumulative_59
+{
+    padding-top: -100px !important;
+    padding-left: 30px !important;
+}
+.change_cumulative_60
+{
+    padding-top: -95px !important;
+    padding-left: 30px !important;
+}
+.change_cumulative_61
+{
+    padding-top: -95px !important;
+    padding-left: 30px !important;
+}
+.change_cumulative_62
+{
+    padding-top: -95px !important;
+    padding-left: 30px !important;
+}
+.change_cumulative_63
+{
+    padding-top: -95px !important;
+    padding-left: 30px !important;
+}
+.change_cumulative_64
+{
+    padding-top: -90px !important;
+    padding-left: 30px !important;
+}
+.change_cumulative_65
+{
+    padding-top: -90px !important;
+    padding-left: 30px !important;
+}
+.change_cumulative_66
+{
+    padding-top: -90px !important;
+    padding-left: 30px !important;
+}
+.change_cumulative_67
+{
+    padding-top:-90px !important;
+    padding-left: 30px !important;
+}
+.change_cumulative_68
+{
+    padding-top: -90px !important;
+    padding-left: 30px !important;
+}
+.change_cumulative_69
+{
+    padding-top: -90px !important;
+    padding-left: 30px !important;
+}
+.change_cumulative_70
+{
+    padding-top: -85px !important;
+    padding-left: 30px !important;
+}
+.change_cumulative_71
+{
+    padding-top: -85px !important;
+    padding-left: 30px !important;
+}
+
+.change_cumulative_72
+{
+    padding-top: -85px !important;
+    padding-left: 30px !important;
+}
+.change_cumulative_73
+{
+    padding-top: -70px !important;
+    padding-left: 30px !important;
+}
+.change_cumulative_74
+{
+    padding-top: -70px !important;
+    padding-left: 30px !important;
+}
+.change_cumulative_75
+{
+    padding-top: -325px !important;
+    padding-left: 30px !important;
+}
+.change_cumulative_76
+{
+    padding-top: -325px !important;
+    padding-left: 30px !important;
+}
+.change_cumulative_77
+{
+    padding-top: -325px !important;
+    padding-left: 30px !important;
+}
+.change_cumulative_78
+{
+    padding-top: -330px !important;
+    padding-left: 30px !important;
+}
+.change_cumulative_79
+{
+    padding-top: -330px !important;
+    padding-left: 30px !important;
+}
+.change_cumulative_80
+{
+    padding-top: -330px !important;
+    padding-left: 30px !important;
+}
+.change_cumulative_81
+{
+    padding-top: -330px !important;
+    padding-left: 30px !important;
+}
+.change_cumulative_82
+{
+    padding-top: -340px !important;
+    padding-left: 30px !important;
+}
+.change_cumulative_83
+{
+    padding-top: -340px !important;
+    padding-left: 30px !important;
+}
+.change_cumulative_84
+{
+    padding-top: -340px !important;
+    padding-left: 30px !important;
+}
+.change_cumulative_85
+{
+    padding-top: -345px !important;
+    padding-left: 30px !important;
+}
+.change_cumulative_86
+{
+    padding-top: -345px !important;
+    padding-left: 30px !important;
+}
+.change_cumulative_87
+{
+    padding-top: -345px !important;
+    padding-left: 30px !important;
+}
+.change_cumulative_88
+{
+    padding-top: -350px !important;
+    padding-left: 30px !important;
+}
+
+.print_cgpa_size
+{
+    padding-left: 15px !important;
+    font-size: 16px !important;
+}
+.print_class
+{
+    font-size: 16px;
+}
+
+.credit_points
+{
+    padding-left: -145px !important;
+}
+
+.ese_max_disp
+{
+     padding-left: -150px !important;
+} 
+.cia_max_disp
+{
+     padding-left: -150px !important;
+
+}
+.cia_max_disp2
+{
+     padding-left: -28px !important;
+     
+}
+.total_max_disp
+{
+    padding-left: -140px !important;
+}
+.total_max_disp2
+{
+     padding-left: -5px !important;
+     
+}
+.disp_ese
+{
+    padding-left: -140px !important;
+}
+.disp_ese2
+{
+    padding-left: -10px !important;
+}
+.disp_cia
+{
+     padding-left: -145px !important;
+}
+.disp_cia2
+{
+     padding-left: -14px !important;
+}
+.total_disp_res
+{
+    padding-left: -146px !important;
+}
+.total_disp_res2
+{
+    padding-left: -15px !important;
+}
+.total_max_disp3
+{
+    padding-left: -45px !important;
+}
+.grade_point
+{
+    padding-left: -140px !important;
+}
+.grade_point2
+{
+    padding-left: -10px !important;
+}
+.grade_name
+{
+    padding-left: -135px !important;
+}
+.print_month_year1
+{
+    padding-left: -140px !important;
+}
+.print_month_year2
+{
+    padding-left: -5px !important;
+}
+.subject_code
+{
+    padding-left: 4px !important;
+}
+.semester2
+{
+    padding-left: -140px !important;
+}
+.semester3
+{
+    padding-left: -130px !important;
+}
+.part_no
+{
+    padding-left: -140px !important;
+}
+.subject_code2
+{
+     padding-left: -138px !important;
+}
+.subject_code3
+{
+    padding-left: -126px !important;
+}
+.subject_name_print2
+{
+    padding-left: -130px !important;
+}
+.subject_name_print3
+{
+    padding-left: -120px !important;
+}
+.subject_name_print
+{
+    padding-left: 10px !important;
+}
+.credit_points2
+{
+    padding-left: -15px !important;
+}
+.ese_max_disp2
+{
+    padding-left: -15px !important;
+}
+.ese_max_disp3
+{
+    padding-left: -25px !important;
+}
+.print_month_year
+{
+padding-left: -29px ;
+}
+.stu_photo
+{
+padding-right: 150px !important;
+}
+.line_height subjects_tables
+{
+    padding-bottom: 140px; 
+   
+   
+}
+.style
+{
+
+    padding-top: 20px;
+    padding-left: -70px;
+
+}

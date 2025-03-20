@@ -1,0 +1,226 @@
+
+table
+
+{
+   font-family:'Arial Black', Gadget, sans-serif; 
+  font-size: 25px;
+}
+
+.grid-view
+    padding-top:15px !important;
+}
+    .grid-view table{
+        display: table;
+        border-collapse: collapse;
+        border:1.5px solid #adacab;
+        font-style:VarelaRound-Regular;
+        width:100%;
+    }
+    .footer_mark_state
+    {
+        margin-bottom: 25px !important;
+    }
+    .font_weight_bold
+    {
+        font-weight: bold;
+    }
+    .left_margin{
+        margin-left: -90px !important;
+    }
+    .width
+    {
+        width: 2480px;      
+        text-align: center !important;
+    }
+    .main_table
+    {
+        padding-top: 13%;
+    }
+    .main_table tr td:first-child {
+      background: #FFF;
+     }
+     .left_table tr td:nth-child(1),.right_table tr td:nth-child(1)
+     {
+        width: 210px !important;
+     }
+     .left_table
+     {
+        padding-left: 100px !important;
+        padding-top: 10px !important; 
+     }
+     .push_down tr
+     {
+        padding-top: -95px !important; 
+        padding-bottom: -90px !important;
+     }
+      .push_down1 tr
+     {
+        padding-top: -55px !important; 
+        padding-bottom: 150px !important;
+     }
+
+     .right_table
+     {
+        padding-left: 330px !important;
+        padding-top: -5px !important;
+     }
+    .grid-view th{text-align:left;font-weight:bold;color:#990a10;width:110px;border:0.4px solid #adacab;height:24px;background:#e3e3e3;text-align:center;}
+    .title{color: seagreen;}
+    .grid-view td{border:0.4px solid #adacab;height:24px;text-align:center;}
+    
+    .user-data .label {width:130px;color:#990a10;}
+    .user-data td {text-align:left; padding:8px}
+.row-ID {
+  width: 18%;
+}
+}
+.ug_print
+{
+    padding-top: -80px !important;
+    
+}
+.make_font_size
+{
+    font-size: 22px !important;
+}
+.admission_p
+{
+    padding-bottom: 6px !important;
+}
+.admission_down
+{
+    padding-bottom: -25px !important;
+}
+.admission_down1
+{
+    padding-bottom : -75px !important;
+}
+.caste
+{
+    padding-top: 15px !important;
+}
+.stuname
+{
+    padding-top: -58px !important;
+}
+.stuname1
+{
+    padding-bottom:  -95px !important;
+}
+.fatname
+{
+    padding-top: -50px !important;
+}
+.fatname1
+{
+    padding-bottom: -73px !important;
+}
+.subcaste_print
+{
+   padding-bottom:  21px !important;
+}
+.subcaste_print1
+{
+    padding-top: -50px !important;
+}
+.print
+{
+    padding-top: 18px !important;
+}
+
+.print1
+{
+    padding-bottom: -40px !important;
+}
+.nationality_print
+{
+    padding-bottom:  26px !important;
+}
+.nationality_print1
+{
+    padding-bottom: -75px !important;
+}
+.stu_religion
+{
+    padding-bottom:  25px !important;
+}
+.stu_religion1
+{
+    padding-bottom: -80px !important;
+}
+.admission_print
+{
+    padding-top: -39px !important;
+}
+.dob
+{
+    padding-bottom:  14px !important;
+}
+.dob1
+{
+    padding-top: -15px !important;
+}
+.dob_words
+{
+     padding-bottom:  13px !important;
+}
+.dob_words1
+{
+    padding-top: -5px !important;
+}
+.ugprint
+{
+    padding-bottom:  -25px !important;
+    
+}
+.ugprint1
+{
+    padding-bottom:  -75px !important;
+    
+}
+.datetc
+{
+    padding-top:  55px !important;
+}
+.date_tc
+{
+    padding-bottom:  -42px !important;
+}
+.dateleft
+{
+    padding-bottom: -75px !important;
+}
+.date_left
+{
+   
+    padding-bottom:  -79px !important;
+}
+.date_issue
+{
+   padding-bottom:  -102px !important;
+}
+.dateissue
+{
+   padding-bottom: -99px !important;
+}
+.comunity_name
+{
+    padding-bottom:  16px !important;
+}
+.comunity_name1
+{
+    padding-top: -29px !important;
+}
+.char
+{
+
+ padding-bottom:  -20px !important;
+}
+.tc_1
+{
+
+padding-left: 15px;
+
+}
+
+

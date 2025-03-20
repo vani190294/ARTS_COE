@@ -1,0 +1,272 @@
+User: 172.17.242.32 - May 18, 2020, 10:00 am
+Accessed URLS: http://172.17.25.3:8081/COE/index.php?r=ajaxrequest/getdegreedetails
+----------------------------------------------------------------
+
+User: 172.17.242.32 - May 18, 2020, 10:00 am
+Accessed URLS: http://172.17.25.3:8081/COE/index.php?r=ajaxrequest/getdegpgmdetails
+----------------------------------------------------------------
+
+User: 172.17.242.32 - May 18, 2020, 10:00 am
+Accessed URLS: http://172.17.25.3:8081/COE/index.php?r=ajaxrequest/getmigbatch
+----------------------------------------------------------------
+
+User: 172.17.242.32 - May 18, 2020, 10:00 am
+Accessed URLS: http://172.17.25.3:8081/COE/index.php?r=mark-entry-master%2Fexport-cia-marks
+----------------------------------------------------------------
+
+User: 172.17.242.32 - May 18, 2020, 10:00 am
+Accessed URLS: http://172.17.25.3:8081/COE/index.php?r=mark-entry-master%2Fexport-cia-marks/images/notfound.png
+----------------------------------------------------------------
+
+User: 172.17.242.32 - May 18, 2020, 10:00 am
+Accessed URLS: http://172.17.25.3:8081/COE/index.php?SubjectsMappingSearch%5Bbatch_name%5D=&SubjectsMappingSearch%5Bdegree_code%5D=&SubjectsMappingSearch%5Bprogramme_code%5D=208&SubjectsMappingSearch%5Bsubject_code%5D=&SubjectsMappingSearch%5Bsemester%5D=6&SubjectsMappingSearch%5Bsubject_name%5D=&SubjectsMappingSearch%5BCIA_max%5D=&SubjectsMappingSearch%5BESE_min%5D=&SubjectsMappingSearch%5BESE_max%5D=&SubjectsMappingSearch%5Bpaper_type_id%5D=&SubjectsMappingSearch%5Bsubject_type_id%5D=&SubjectsMappingSearch%5Bcourse_type_id%5D=&r=subjects-mapping%2Findex
+----------------------------------------------------------------
+
+User: 172.17.242.32 - May 18, 2020, 10:00 am
+Accessed URLS: http://172.17.25.3:8081/COE/index.php?SubjectsMappingSearch%5Bbatch_name%5D=&SubjectsMappingSearch%5Bdegree_code%5D=&SubjectsMappingSearch%5Bprogramme_code%5D=208&SubjectsMappingSearch%5Bsubject_code%5D=&SubjectsMappingSearch%5Bsemester%5D=6&SubjectsMappingSearch%5Bsubject_name%5D=&SubjectsMappingSearch%5BCIA_max%5D=&SubjectsMappingSearch%5BESE_min%5D=&SubjectsMappingSearch%5BESE_max%5D=&SubjectsMappingSearch%5Bpaper_type_id%5D=&SubjectsMappingSearch%5Bsubject_type_id%5D=&SubjectsMappingSearch%5Bcourse_type_id%5D=&r=subjects-mapping%2Findex/images/notfound.png
+----------------------------------------------------------------
+
+User: 172.17.242.32 - May 18, 2020, 10:00 am
+Accessed URLS: http://172.17.25.3:8081/COE/index.php?SubjectsMappingSearch%5Bbatch_name%5D=&SubjectsMappingSearch%5Bdegree_code%5D=&SubjectsMappingSearch%5Bprogramme_code%5D=208&SubjectsMappingSearch%5Bsubject_code%5D=&SubjectsMappingSearch%5Bsemester%5D=&SubjectsMappingSearch%5Bsubject_name%5D=&SubjectsMappingSearch%5BCIA_max%5D=&SubjectsMappingSearch%5BESE_min%5D=&SubjectsMappingSearch%5BESE_max%5D=&SubjectsMappingSearch%5Bpaper_type_id%5D=&SubjectsMappingSearch%5Bsubject_type_id%5D=&SubjectsMappingSearch%5Bcourse_type_id%5D=&r=subjects-mapping%2Findex
+----------------------------------------------------------------
+
+User: 172.17.242.32 - May 18, 2020, 10:00 am
+Accessed URLS: http://172.17.25.3:8081/COE/index.php?SubjectsMappingSearch%5Bbatch_name%5D=&SubjectsMappingSearch%5Bdegree_code%5D=&SubjectsMappingSearch%5Bprogramme_code%5D=208&SubjectsMappingSearch%5Bsubject_code%5D=&SubjectsMappingSearch%5Bsemester%5D=&SubjectsMappingSearch%5Bsubject_name%5D=&SubjectsMappingSearch%5BCIA_max%5D=&SubjectsMappingSearch%5BESE_min%5D=&SubjectsMappingSearch%5BESE_max%5D=&SubjectsMappingSearch%5Bpaper_type_id%5D=&SubjectsMappingSearch%5Bsubject_type_id%5D=&SubjectsMappingSearch%5Bcourse_type_id%5D=&r=subjects-mapping%2Findex/images/notfound.png
+----------------------------------------------------------------
+
+User: 172.17.242.32 - May 18, 2020, 10:00 am
+Accessed URLS: http://172.17.25.3:8081/COE/index.php?SubjectsMappingSearch%5Bbatch_name%5D=&SubjectsMappingSearch%5Bdegree_code%5D=&SubjectsMappingSearch%5Bprogramme_code%5D=208&SubjectsMappingSearch%5Bsubject_code%5D=&SubjectsMappingSearch%5Bsemester%5D=&SubjectsMappingSearch%5Bsubject_name%5D=&SubjectsMappingSearch%5BCIA_max%5D=&SubjectsMappingSearch%5BESE_min%5D=&SubjectsMappingSearch%5BESE_max%5D=&SubjectsMappingSearch%5Bpaper_type_id%5D=&SubjectsMappingSearch%5Bsubject_type_id%5D=&SubjectsMappingSearch%5Bcourse_type_id%5D=&r=subjects-mapping%2Findex
+----------------------------------------------------------------
+
+User: 172.17.242.32 - May 18, 2020, 10:00 am
+Accessed URLS: http://172.17.25.3:8081/COE/index.php?SubjectsMappingSearch%5Bbatch_name%5D=&SubjectsMappingSearch%5Bdegree_code%5D=&SubjectsMappingSearch%5Bprogramme_code%5D=208&SubjectsMappingSearch%5Bsubject_code%5D=&SubjectsMappingSearch%5Bsemester%5D=&SubjectsMappingSearch%5Bsubject_name%5D=&SubjectsMappingSearch%5BCIA_max%5D=&SubjectsMappingSearch%5BESE_min%5D=&SubjectsMappingSearch%5BESE_max%5D=&SubjectsMappingSearch%5Bpaper_type_id%5D=&SubjectsMappingSearch%5Bsubject_type_id%5D=&SubjectsMappingSearch%5Bcourse_type_id%5D=&r=subjects-mapping%2Findex/images/notfound.png
+----------------------------------------------------------------
+
+User: 172.17.242.32 - May 18, 2020, 10:02 am
+Accessed URLS: http://172.17.25.3:8081/COE/index.php?r=site%2Flogin
+----------------------------------------------------------------
+
+User: 172.17.242.32 - May 18, 2020, 10:02 am
+Accessed URLS: http://172.17.25.3:8081/COE/index.php?r=site%2Flogin/images/notfound.png
+----------------------------------------------------------------
+
+User: 172.17.242.32 - May 18, 2020, 10:02 am
+Accessed URLS: http://172.17.25.3:8081/COE/index.php?r=site%2Flogin/images/notfound.png
+----------------------------------------------------------------
+
+User: 172.17.242.32 - May 18, 2020, 10:10 am
+Accessed URLS: http://172.17.25.3:8081/COE/index.php?r=reports%2Findex
+----------------------------------------------------------------
+
+User: 172.17.242.32 - May 18, 2020, 10:10 am
+Accessed URLS: http://172.17.25.3:8081/COE/index.php?r=reports%2Findex/images/notfound.png
+----------------------------------------------------------------
+
+User: 172.17.242.32 - May 18, 2020, 10:10 am
+Accessed URLS: http://172.17.25.3:8081/COE/
+----------------------------------------------------------------
+
+User: 172.17.242.32 - May 18, 2020, 10:10 am
+Accessed URLS: http://172.17.25.3:8081/COE/
+----------------------------------------------------------------
+
+User: 172.17.242.32 - May 18, 2020, 10:10 am
+Accessed URLS: http://172.17.25.3:8081/COE/index.php?r=reports%2Findex
+----------------------------------------------------------------
+
+User: 172.17.242.32 - May 18, 2020, 10:10 am
+Accessed URLS: http://172.17.25.3:8081/COE/index.php?r=reports%2Findex/images/notfound.png
+----------------------------------------------------------------
+
+User: 172.17.242.32 - May 18, 2020, 10:12 am
+Accessed URLS: http://172.17.25.3:8081/COE/index.php?r=reports%2Findex
+----------------------------------------------------------------
+
+User: 172.17.242.32 - May 18, 2020, 10:12 am
+Accessed URLS: http://172.17.25.3:8081/COE/index.php?r=reports%2Findex/images/notfound.png
+----------------------------------------------------------------
+
+User: 172.17.242.32 - May 18, 2020, 10:12 am
+Accessed URLS: http://172.17.25.3:8081/COE/index.php?r=reports%2Findex
+----------------------------------------------------------------
+
+User: 172.17.242.32 - May 18, 2020, 10:12 am
+Accessed URLS: http://172.17.25.3:8081/COE/index.php?r=reports%2Findex/images/notfound.png
+----------------------------------------------------------------
+
+User: 172.17.242.32 - May 18, 2020, 10:12 am
+Accessed URLS: http://172.17.25.3:8081/COE/index.php?r=reports%2Findex
+----------------------------------------------------------------
+
+User: 172.17.242.32 - May 18, 2020, 10:12 am
+Accessed URLS: http://172.17.25.3:8081/COE/index.php?r=reports%2Findex/images/notfound.png
+----------------------------------------------------------------
+
+User: 172.17.242.32 - May 18, 2020, 10:12 am
+Accessed URLS: http://172.17.25.3:8081/COE/index.php?r=reports%2Findex
+----------------------------------------------------------------
+
+User: 172.17.242.32 - May 18, 2020, 10:12 am
+Accessed URLS: http://172.17.25.3:8081/COE/index.php?r=reports%2Findex/images/notfound.png
+----------------------------------------------------------------
+
+User: 172.17.242.32 - May 18, 2020, 10:12 am
+Accessed URLS: http://172.17.25.3:8081/COE/index.php?r=reports%2Findex
+----------------------------------------------------------------
+
+User: 172.17.242.32 - May 18, 2020, 10:12 am
+Accessed URLS: http://172.17.25.3:8081/COE/index.php?r=reports%2Findex/images/notfound.png
+----------------------------------------------------------------
+
+User: 172.17.242.32 - May 18, 2020, 10:12 am
+Accessed URLS: http://172.17.25.3:8081/COE/index.php?r=reports%2Findex
+----------------------------------------------------------------
+
+User: 172.17.242.32 - May 18, 2020, 10:12 am
+Accessed URLS: http://172.17.25.3:8081/COE/index.php?r=reports%2Findex/images/notfound.png
+----------------------------------------------------------------
+
+User: 172.17.242.32 - May 18, 2020, 10:12 am
+Accessed URLS: http://172.17.25.3:8081/COE/index.php?r=reports%2Findex
+----------------------------------------------------------------
+
+User: 172.17.242.32 - May 18, 2020, 10:12 am
+Accessed URLS: http://172.17.25.3:8081/COE/index.php?r=reports%2Findex/images/notfound.png
+----------------------------------------------------------------
+
+User: 172.17.242.32 - May 18, 2020, 10:12 am
+Accessed URLS: http://172.17.25.3:8081/COE/index.php?r=reports%2Findex
+----------------------------------------------------------------
+
+User: 172.17.242.32 - May 18, 2020, 10:12 am
+Accessed URLS: http://172.17.25.3:8081/COE/index.php?r=reports%2Findex/images/notfound.png
+----------------------------------------------------------------
+
+User: 172.17.242.32 - May 18, 2020, 10:12 am
+Accessed URLS: http://172.17.25.3:8081/COE/index.php?r=reports%2Findex
+----------------------------------------------------------------
+
+User: 172.17.242.32 - May 18, 2020, 10:12 am
+Accessed URLS: http://172.17.25.3:8081/COE/index.php?r=reports%2Findex/images/notfound.png
+----------------------------------------------------------------
+
+User: 172.17.242.32 - May 18, 2020, 10:12 am
+Accessed URLS: http://172.17.25.3:8081/COE/index.php?r=reports%2Findex
+----------------------------------------------------------------
+
+User: 172.17.242.32 - May 18, 2020, 10:12 am
+Accessed URLS: http://172.17.25.3:8081/COE/index.php?r=reports%2Findex/images/notfound.png
+----------------------------------------------------------------
+
+User: 172.17.242.32 - May 18, 2020, 10:12 am
+Accessed URLS: http://172.17.25.3:8081/COE/index.php?r=reports%2Findex
+----------------------------------------------------------------
+
+User: 172.17.242.32 - May 18, 2020, 10:12 am
+Accessed URLS: http://172.17.25.3:8081/COE/index.php?r=reports%2Findex/images/notfound.png
+----------------------------------------------------------------
+
+User: 172.17.242.32 - May 18, 2020, 10:15 am
+Accessed URLS: http://172.17.25.3:8081/coe/
+----------------------------------------------------------------
+
+User: 172.17.242.32 - May 18, 2020, 10:15 am
+Accessed URLS: http://172.17.25.3:8081/COE/index.php?r=reports%2Findex
+----------------------------------------------------------------
+
+User: 172.17.242.32 - May 18, 2020, 10:15 am
+Accessed URLS: http://172.17.25.3:8081/COE/index.php?r=reports%2Findex/images/notfound.png
+----------------------------------------------------------------
+
+User: 172.17.242.32 - May 18, 2020, 10:15 am
+Accessed URLS: http://172.17.25.3:8081/COE/index.php?r=reports%2Findex
+----------------------------------------------------------------
+
+User: 172.17.242.32 - May 18, 2020, 10:15 am
+Accessed URLS: http://172.17.25.3:8081/COE/index.php?r=reports%2Findex/images/notfound.png
+----------------------------------------------------------------
+
+User: 172.17.242.32 - May 18, 2020, 10:15 am
+Accessed URLS: http://172.17.25.3:8081/COE/index.php?r=reports%2Findex
+----------------------------------------------------------------
+
+User: 172.17.242.32 - May 18, 2020, 10:15 am
+Accessed URLS: http://172.17.25.3:8081/COE/index.php?r=reports%2Findex/images/notfound.png
+----------------------------------------------------------------
+
+User: 172.17.242.32 - May 18, 2020, 10:15 am
+Accessed URLS: http://172.17.25.3:8081/COE/index.php?r=reports%2Findex
+----------------------------------------------------------------
+
+User: 172.17.242.32 - May 18, 2020, 10:15 am
+Accessed URLS: http://172.17.25.3:8081/COE/index.php?r=reports%2Findex/images/notfound.png
+----------------------------------------------------------------
+
+User: 172.17.242.32 - May 18, 2020, 10:15 am
+Accessed URLS: http://172.17.25.3:8081/COE/index.php?r=reports%2Findex
+----------------------------------------------------------------
+
+User: 172.17.242.32 - May 18, 2020, 10:15 am
+Accessed URLS: http://172.17.25.3:8081/COE/index.php?r=reports%2Findex/images/notfound.png
+----------------------------------------------------------------
+
+User: 172.17.242.32 - May 18, 2020, 10:15 am
+Accessed URLS: http://172.17.25.3:8081/COE/index.php?r=reports%2Findex
+----------------------------------------------------------------
+
+User: 172.17.242.32 - May 18, 2020, 10:15 am
+Accessed URLS: http://172.17.25.3:8081/COE/index.php?r=reports%2Findex/images/notfound.png
+----------------------------------------------------------------
+
+User: 172.17.242.32 - May 18, 2020, 10:15 am
+Accessed URLS: http://172.17.25.3:8081/COE/index.php?r=reports%2Findex
+----------------------------------------------------------------
+
+User: 172.17.242.32 - May 18, 2020, 10:15 am
+Accessed URLS: http://172.17.25.3:8081/COE/index.php?r=reports%2Findex/images/notfound.png
+----------------------------------------------------------------
+
+User: 172.17.242.32 - May 18, 2020, 10:15 am
+Accessed URLS: http://172.17.25.3:8081/COE/index.php?r=reports%2Findex
+----------------------------------------------------------------
+
+User: 172.17.242.32 - May 18, 2020, 10:15 am
+Accessed URLS: http://172.17.25.3:8081/COE/index.php?r=reports%2Findex/images/notfound.png
+----------------------------------------------------------------
+
+User: 172.17.242.32 - May 18, 2020, 10:15 am
+Accessed URLS: http://172.17.25.3:8081/COE/index.php?r=reports%2Findex
+----------------------------------------------------------------
+
+User: 172.17.242.32 - May 18, 2020, 10:15 am
+Accessed URLS: http://172.17.25.3:8081/COE/index.php?r=reports%2Findex/images/notfound.png
+----------------------------------------------------------------
+
+User: 172.17.242.32 - May 18, 2020, 10:16 am
+Accessed URLS: http://172.17.25.3:8081/COE/index.php?r=reports%2Findex
+----------------------------------------------------------------
+
+User: 172.17.242.32 - May 18, 2020, 10:16 am
+Accessed URLS: http://172.17.25.3:8081/COE/index.php?r=reports%2Findex/images/notfound.png
+----------------------------------------------------------------
+
+User: 172.17.242.32 - May 18, 2020, 10:16 am
+Accessed URLS: http://172.17.25.3:8081/COE/
+----------------------------------------------------------------
+
+User: 172.17.242.32 - May 18, 2020, 10:19 am
+Accessed URLS: http://172.17.25.3:8081/COE/
+----------------------------------------------------------------
+
+User: 172.17.242.32 - May 18, 2020, 10:19 am
+Accessed URLS: http://172.17.25.3:8081/COE/
+----------------------------------------------------------------
+
+User: 172.17.242.32 - May 18, 2020, 10:28 am
+Accessed URLS: http://172.17.25.3:8081/COE/index.php?r=reports%2Findex
+----------------------------------------------------------------
+
+User: 172.17.242.32 - May 18, 2020, 10:28 am
+Accessed URLS: http://172.17.25.3:8081/COE/index.php?r=reports%2Findex/images/notfound.png
+----------------------------------------------------------------
+

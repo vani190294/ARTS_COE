@@ -1,0 +1,44 @@
+User: 172.17.242.179 - February 5, 2020, 2:56 pm
+Accessed URLS: http://172.17.25.3:8081/COE/index.php?r=ajaxrequest/examdatesviewab
+----------------------------------------------------------------
+
+User: 172.17.242.179 - February 5, 2020, 3:08 pm
+Accessed URLS: http://172.17.25.3:8081/COE/index.php?r=ajaxrequest/getdegreedetails
+----------------------------------------------------------------
+
+User: 172.17.242.179 - February 5, 2020, 3:08 pm
+Accessed URLS: http://172.17.25.3:8081/COE/index.php?r=ajaxrequest/getdegpgmdetails
+----------------------------------------------------------------
+
+User: 172.17.242.179 - February 5, 2020, 3:08 pm
+Accessed URLS: http://172.17.25.3:8081/COE/index.php?r=ajaxrequest/getmigbatch
+----------------------------------------------------------------
+
+User: 172.17.242.179 - February 5, 2020, 3:08 pm
+Accessed URLS: http://172.17.25.3:8081/COE/index.php?r=mark-entry%2Fnoticeboard
+----------------------------------------------------------------
+
+User: 172.17.242.179 - February 5, 2020, 3:08 pm
+Accessed URLS: http://172.17.25.3:8081/COE/index.php?r=mark-entry%2Fnoticeboard/images/notfound.png
+----------------------------------------------------------------
+
+User: 172.17.242.179 - February 5, 2020, 3:08 pm
+Accessed URLS: http://172.17.25.3:8081/coe/
+----------------------------------------------------------------
+
+User: 172.17.242.247 - February 5, 2020, 6:16 pm
+Accessed URLS: http://172.17.25.3:8081/coe/index.php?r=reports%2Findex
+----------------------------------------------------------------
+
+User: 172.17.242.247 - February 5, 2020, 6:16 pm
+Accessed URLS: http://172.17.25.3:8081/coe/index.php?r=reports%2Findex/images/notfound.png
+----------------------------------------------------------------
+
+User: 172.17.242.247 - February 5, 2020, 6:16 pm
+Accessed URLS: http://172.17.25.3:8081/coe/
+----------------------------------------------------------------
+
+User: 172.17.242.247 - February 5, 2020, 6:17 pm
+Accessed URLS: http://172.17.25.3:8081/COE/
+----------------------------------------------------------------
+

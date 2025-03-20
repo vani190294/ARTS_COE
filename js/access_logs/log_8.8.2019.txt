@@ -1,0 +1,8 @@
+User: 172.21.2.143 - August 8, 2019, 5:59 pm
+Accessed URLS: http://172.21.2.2:8081/COEV1/index.php?r=mark-entry%2Fmark-statement
+----------------------------------------------------------------
+
+User: 172.21.2.143 - August 8, 2019, 5:59 pm
+Accessed URLS: http://172.21.2.2:8081/COEV1/index.php?r=mark-entry%2Fmark-statement/images/notfound.png
+----------------------------------------------------------------
+

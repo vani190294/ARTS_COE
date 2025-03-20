@@ -1,0 +1,112 @@
+.line_height{
+    line-height: 1.9em;
+}
+table{
+    font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+    width:100%;
+    font-size: 13px !important;
+}
+
+table td{
+    border: none !important;
+}
+.subjects_tables
+{
+    font-size: 11px !important;
+    line-height: 0.60em;
+}
+.gap_subjects_tables
+{
+    line-height: 1px !important;
+}
+.print_credit_points
+{
+    padding-left: 15px;
+    font-size: 14px;
+}
+.print_credit_points_add
+{
+    padding-left: 35px;
+    font-size: 14px;
+}
+.cumulative_row
+{
+	padding-left: 65px !important;
+	width: 30px !important;
+    font-size: 14px;
+    margin-top: -20px !important;
+    margin-left: -15px !important;
+}
+.margin_right
+{
+	padding-right: 5px;
+}
+.date_style
+{
+	padding-left: 35px !important;
+    padding-top: 38px !important;
+}
+.print_tri_sem{
+    font-weight: bold; 
+    font-size: 12px; 
+    padding-top: 0px; 
+    text-align: center;
+    margin-top: -12px !important;
+    padding-top: -12px !important;
+}
+.cumulative_credits
+{
+    padding-left: 25px;
+}
+.cumulative_cgpa
+{
+    padding-right: 40px !important;
+    margin-left: -15px !important;
+    padding-left: -15px !important;
+}
+.print_mba
+{
+    padding-top: 70px !important;
+    margin-left: 45px !important;
+    font-weight: bold !important;
+    font-size: 15px !important;
+    padding-right: -48px !important;
+    letter-spacing: 0.04em;
+    text-align: right !important;
+    border: none; 
+}
+.take_top
+{
+    margin-top: -13px !important;
+}
+.end_of_statement
+{
+    font-size: 11px !important;
+    font-weight: bold !important;
+    text-align: center !important; 
+}
+.additional_credits_print
+{
+    font-weight: bold !important; 
+    font-size: 9px !important;
+    text-align: left !important;
+    padding-left: 30px !important;
+    width: 500px !important;
+}
+.header_print_stu
+{
+    padding-top: 28px; 
+    padding-bottom:-6px; 
+    border: none;
+    text-transform: uppercase;
+}
+
+.print_classification
+{
+    width: 300px !important;
+    font-size: 11px !important;
+}
+.no_print_tri_sem
+{
+    height: 15px !important;
+}
